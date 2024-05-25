@@ -1,0 +1,281 @@
+nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+nav .logo {
+  width: 115px;
+  /* background-color: green; */
+}
+nav .logo img {
+  width: 100%;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+nav .links li {
+  font-family: sans-serif;
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-out 0s;
+}
+nav .links li:hover {
+  color: #2585d1;
+}
+nav .donate button {
+  border: 0;
+  background-color: #2585d1;
+  padding: 5px 31px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: white;
+  transition: all 0.3s ease-out 0s;
+}
+nav .donate button:hover {
+  background-color: #2584d1b3;
+}
+
+.impact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 0px;
+}
+.impact h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+.impact p {
+  color: #90898b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 500px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.impact_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 90%;
+  gap: 20px;
+  /* background-color: green; */
+}
+
+.impact_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
+  padding: 40px 0px;
+  /* border-radius: /0px; */
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+}
+.impact_card:hover {
+  background-color: rgb(222, 237, 243);
+  box-shadow: 3px 6px 14px 0px rgb(180, 200, 208);
+}
+.impact_card .logo {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(187, 222, 236);
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+.impact_card .logo img {
+  width: 50px;
+  height: 50px;
+}
+.impact_card h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  display: block;
+  font-family: sans-serif;
+}
+.impact_card p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.hope {
+  background-color: #f3f7f9;
+  padding: 6.25rem 100px;
+}
+
+.hope .top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.hope .top .first {
+  width: 50%;
+  padding-right: 20px;
+}
+.hope .top .first h1 {
+  font-size: 2.1875rem;
+  margin-bottom: 1.875rem;
+  color: #2585d1;
+  font-family: serif;
+}
+.hope .top p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #90898b;
+  line-height: 2;
+}
+.hope .top .second {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hope .top .second div {
+  padding: 0px 20px;
+  width: 50%;
+}
+.hope .top .second div img {
+  width: 50px;
+  margin-bottom: 1.875rem;
+}
+
+.hope .top .second div h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: #2585d1;
+  font-family: serif;
+}
+
+.hope .bottom {
+  display: flex;
+}
+.hope .bottom .first h1 {
+  font-size: 2.1875rem;
+  margin-bottom: 1.875rem;
+  color: #2585d1;
+  font-family: serif;
+  padding-top: 100px;
+}
+
+.hope .bottom .first p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #90898b;
+  line-height: 2;
+  padding-right: 60px;
+}
+
+.recognition {
+  padding: 6.25rem 100px;
+  text-align: center;
+  padding-left: 0px;
+}
+.recognition h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 100px;
+  font-family: serif;
+  margin-left: 100px;
+}
+.recognition > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+  width: 100%;
+}
+.recognition > div > .left {
+  width: 60%;
+}
+.recognition > div > .right {
+  width: 40%;
+}
+
+.recognition > div > div img {
+  width: 100%;
+}
+
+.recognition > div > .right p {
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #7e8b90;
+  line-height: 2.1875rem;
+  text-align: left;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.recognition > div > .right p span.pres {
+  font-weight: 600;
+}
+.recognition > div > .right p span.name {
+  font-weight: 900;
+}
+
+.footer {
+  background-color: #301a22;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer div {
+  color: white;
+  font-family: sans-serif;
+}
+.footer div h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer li {
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .social {
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+}
+.footer .social li {
+  font-size: 20px;
+}
