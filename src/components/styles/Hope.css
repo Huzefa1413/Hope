@@ -1,0 +1,62 @@
+.hope {
+  background-color: #f3f7f9;
+  padding: 2rem;
+}
+
+.hope h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.875rem;
+  color: #2585d1;
+  font-family: serif;
+}
+
+.hope p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #90898b;
+  line-height: 1.6;
+}
+
+.hope .icon-size {
+  width: 70px;
+  height: 70px;
+}
+
+.hope h3 {
+  font-family: serif;
+  color: #2585d1; /* Ensures the text is blue */
+}
+
+.hope .chairperson-img {
+  width: 100%;
+  max-width: 300px; /* Ensures the image is larger but still responsive */
+}
+
+@media (max-width: 768px) {
+  .hope h1 {
+    font-size: 2rem;
+  }
+
+  .hope p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hope h1 {
+    font-size: 1.75rem;
+  }
+
+  .hope p {
+    font-size: 0.75rem;
+  }
+
+  .hope .icon-size {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hope .chairperson-img {
+    max-width: 200px; /* Adjust max-width for smaller screens */
+  }
+}

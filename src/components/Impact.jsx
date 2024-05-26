@@ -5,6 +5,7 @@ import education from '../assets/education.svg';
 import vocational from '../assets/vocational.svg';
 import aqua from '../assets/aqua.svg';
 import emergency from '../assets/emergency.svg';
+import './styles/Impact.css';
 
 const Impact = () => {
   const impact_cards = [
@@ -14,15 +15,25 @@ const Impact = () => {
     { logo: aqua, name: 'Aqua Project', count: 130000 },
     { logo: emergency, name: 'Emergency Relief', count: 500000 },
   ];
+
   return (
-    <div className="impact">
+    <div className="impact container text-center py-5">
       <h1>Our Impact</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore
       </p>
-      <div className="impact_cards">
-        {impact_cards.map((card) => (
-          <ImpactCard info={card} />
+      <div className="row justify-content-center">
+        {impact_cards.slice(0, 3).map((card, index) => (
+          <div className="col-md-4 mb-4" key={index}>
+            <ImpactCard info={card} />
+          </div>
+        ))}
+      </div>
+      <div className="row justify-content-center">
+        {impact_cards.slice(3).map((card, index) => (
+          <div className="col-md-4 mb-4" key={index}>
+            <ImpactCard info={card} />
+          </div>
         ))}
       </div>
     </div>

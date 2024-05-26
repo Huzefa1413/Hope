@@ -1,0 +1,67 @@
+.impact_card {
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.impact_card:hover {
+  background-color: rgb(222, 237, 243);
+  box-shadow: 3px 6px 14px 0px rgb(180, 200, 208);
+}
+
+.impact_card .logo {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(187, 222, 236);
+  padding: 20px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.impact_card .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.impact_card h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.impact_card p {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/* Responsive font sizes for ImpactCard */
+@media (max-width: 1200px) {
+  .impact_card h1 {
+    font-size: 1.25rem;
+  }
+  .impact_card p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .impact_card h1 {
+    font-size: 1.125rem;
+  }
+  .impact_card p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .impact_card h1 {
+    font-size: 1rem;
+  }
+  .impact_card p {
+    font-size: 0.625rem;
+  }
+}

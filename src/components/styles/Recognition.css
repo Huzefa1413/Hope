@@ -1,0 +1,50 @@
+.recognition {
+  padding: 6.25rem 2rem;
+}
+
+.recognition h1 {
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  font-family: serif;
+}
+
+.recognition p {
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #7e8b90;
+  line-height: 2.1875rem;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.recognition p span.pres {
+  font-weight: 600;
+}
+
+.recognition p span.name {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .recognition h1 {
+    font-size: 2.25rem;
+  }
+
+  .recognition p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .recognition h1 {
+    font-size: 1.75rem;
+  }
+
+  .recognition p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}

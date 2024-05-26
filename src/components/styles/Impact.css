@@ -1,0 +1,46 @@
+.impact > h1 {
+  font-size: 2.5rem; /* Default font size for large screens */
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+
+.impact > p {
+  color: #90898b;
+  font-size: 1.125rem; /* Default font size for large screens */
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto 45px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Responsive font sizes */
+@media (max-width: 1200px) {
+  .impact > h1 {
+    font-size: 2rem; /* Slightly smaller font size for medium screens */
+  }
+  .impact > p {
+    font-size: 1rem; /* Slightly smaller font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .impact > h1 {
+    font-size: 1.75rem; /* Smaller font size for small screens */
+  }
+  .impact > p {
+    font-size: 0.875rem; /* Smaller font size for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .impact > h1 {
+    font-size: 1.5rem; /* Even smaller font size for extra small screens */
+  }
+  .impact > p {
+    font-size: 0.75rem; /* Even smaller font size for extra small screens */
+  }
+}
