@@ -1,0 +1,118 @@
+.achievements {
+  padding: 6.25rem 2rem;
+}
+
+.achievements h1 {
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  font-family: serif;
+}
+
+.section-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.section-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.section-wrapper::-webkit-scrollbar-track {
+  background: rgba(200, 200, 200, 0.3);
+  border-radius: 10px;
+}
+
+.section-wrapper::-webkit-scrollbar-thumb {
+  background: #2585d1;
+  border-radius: 10px;
+}
+
+.section-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #1a5d96;
+}
+
+.achievements .section {
+  display: flex;
+  width: max-content;
+}
+
+.achievements .section .item {
+  background-color: rgb(222, 237, 243);
+  box-shadow: 3px 6px 14px 0px rgb(180, 200, 208);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achievements .section .item p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #7e8b90;
+  line-height: 2.1875rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.achievements .section .item button {
+  border: 0;
+  background-color: #2585d1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: white;
+  transition: all 0.3s ease-out 0s;
+}
+
+.achievements .section .item button:hover {
+  background-color: #2584d1b3;
+}
+
+@media (max-width: 768px) {
+  .achievements h1 {
+    font-size: 2.25rem;
+  }
+
+  .achievements p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .achievements h1 {
+    font-size: 1.75rem;
+  }
+
+  .achievements p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .achievements .section {
+    width: 100%;
+  }
+
+  .achievements .section .item {
+    width: calc(100% - 40px);
+  }
+}

@@ -5,6 +5,8 @@ import Impact from '../components/Impact';
 import Hope from '../components/Hope';
 import Recognition from '../components/Recognition';
 import Footer from '../components/Footer';
+import Achievements from '../components/Achievements';
+import Collaborations from '../components/Collaborations';
 
 const Homepage = () => {
   return (
@@ -17,6 +19,8 @@ const Homepage = () => {
       <Impact />
       <Hope />
       <Recognition />
+      <Achievements />
+      <Collaborations />
       <Footer />
     </>
   );
