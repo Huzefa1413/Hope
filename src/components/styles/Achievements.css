@@ -65,7 +65,12 @@
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 2.1875rem;
-  margin-bottom: 20px;
+  margin: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .achievements .text-content button {
