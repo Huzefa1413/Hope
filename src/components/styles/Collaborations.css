@@ -9,3 +9,50 @@
   margin-bottom: 3rem;
   font-family: serif;
 }
+
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.swiper-slide img {
+  width: 100px;
+  margin: 0px 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide img {
+    width: 80px;
+    margin: 0px 15px;
+  }
+  .collaborations h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .swiper-slide img {
+    width: 60px;
+    margin: 0px 10px;
+  }
+  .collaborations h1 {
+    font-size: 1.75rem;
+  }
+}

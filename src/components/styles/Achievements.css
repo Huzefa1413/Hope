@@ -10,64 +10,65 @@
   font-family: serif;
 }
 
-.section-wrapper {
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.section-wrapper::-webkit-scrollbar {
-  height: 5px;
-}
-
-.section-wrapper::-webkit-scrollbar-track {
-  background: rgba(200, 200, 200, 0.3);
-  border-radius: 10px;
-}
-
-.section-wrapper::-webkit-scrollbar-thumb {
-  background: #2585d1;
-  border-radius: 10px;
-}
-
-.section-wrapper::-webkit-scrollbar-thumb:hover {
-  background: #1a5d96;
-}
-
-.achievements .section {
+.swiper-slide {
   display: flex;
-  width: max-content;
-}
-
-.achievements .section .item {
-  background-color: rgb(222, 237, 243);
-  box-shadow: 3px 6px 14px 0px rgb(180, 200, 208);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 0 0 auto;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.achievements .section .item p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  word-wrap: break-word;
+.achievements .item {
+  width: 100%;
+  height: 400px; /* Adjust this height as needed */
+  position: relative;
+}
+
+.achievements .item-content {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+.achievements .item-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  border-radius: 10px;
+}
+
+.achievements .text-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.achievements .text-content p {
   font-weight: 300;
   font-size: 1.25rem;
-  color: #7e8b90;
   line-height: 2.1875rem;
-  text-align: center;
   margin-bottom: 20px;
 }
 
-.achievements .section .item button {
+.achievements .text-content button {
   border: 0;
   background-color: #2585d1;
   padding: 10px 20px;
@@ -81,8 +82,8 @@
   transition: all 0.3s ease-out 0s;
 }
 
-.achievements .section .item button:hover {
-  background-color: #2584d1b3;
+.achievements .text-content button:hover {
+  background-color: #1a5d96;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +91,11 @@
     font-size: 2.25rem;
   }
 
-  .achievements p {
+  .achievements .item {
+    height: 300px;
+  }
+
+  .achievements .text-content p {
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -101,18 +106,12 @@
     font-size: 1.75rem;
   }
 
-  .achievements p {
+  .achievements .item {
+    height: 200px;
+  }
+
+  .achievements .text-content p {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .achievements .section {
-    width: 100%;
-  }
-
-  .achievements .section .item {
-    width: calc(100% - 40px);
   }
 }
