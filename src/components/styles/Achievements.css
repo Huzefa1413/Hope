@@ -10,21 +10,19 @@
   font-family: serif;
 }
 
-.swiper-container {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.swiper_container {
+  padding: 2rem 0;
+  position: relative;
+  overflow: hidden; /* Ensure no overflow */
 }
 
 .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 670px !important;
+  height: 400px !important;
+  position: relative;
 }
 
 .achievements .item {
-  width: 100%;
-  height: 400px; /* Adjust this height as needed */
   position: relative;
 }
 
@@ -59,6 +57,7 @@
   z-index: 1;
   color: white;
   text-align: center;
+  padding: 10px; /* Add padding to ensure text stays within the content */
 }
 
 .achievements .text-content p {
@@ -96,8 +95,16 @@
     font-size: 2.25rem;
   }
 
-  .achievements .item {
+  .swiper_container {
     height: 300px;
+  }
+  .swiper-slide {
+    width: 450px !important;
+    height: 300px !important;
+  }
+
+  .achievements .item-content {
+    padding: 15px;
   }
 
   .achievements .text-content p {
@@ -111,12 +118,21 @@
     font-size: 1.75rem;
   }
 
-  .achievements .item {
-    height: 200px;
+  .swiper_container {
+    height: 250px;
+  }
+  .swiper-slide {
+    width: 350px !important;
+    height: 250px !important;
+  }
+
+  .achievements .item-content {
+    padding: 10px;
   }
 
   .achievements .text-content p {
     font-size: 0.875rem;
     line-height: 1.25rem;
+    margin: 10px;
   }
 }

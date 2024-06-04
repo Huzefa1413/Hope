@@ -1,6 +1,4 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, A11y, Autoplay } from 'swiper/modules';
 import './styles/Achievements.css';
 import achievement1 from '../assets/achievement-thubmnail-1.png';
 import achievement2 from '../assets/achievement-thubmnail-2.png';
@@ -8,10 +6,12 @@ import achievement3 from '../assets/achievement-thubmnail-3.png';
 import achievement4 from '../assets/achievement-thubmnail-4.png';
 import achievement5 from '../assets/achievement-thubmnail-5.png';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/navigation';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Autoplay, Navigation } from 'swiper/modules';
 
 const Achievements = () => {
   const achievementsData = [
@@ -46,11 +46,21 @@ const Achievements = () => {
     <div className="achievements container py-5 text-center">
       <h1>What We Have Achieved</h1>
       <Swiper
-        modules={[Navigation, A11y, Autoplay]}
-        slidesPerView={1}
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
         navigation
         autoplay={{ delay: 3000 }}
-        loop={true}
+        modules={[EffectCoverflow, Navigation, Autoplay]}
+        className="swiper_container"
       >
         {achievementsData.map((achievement, index) => (
           <SwiperSlide key={index} className="item">

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import Marquee from 'react-fast-marquee';
 import './styles/Collaborations.css';
 import img1 from '../assets/image1x1.png';
 import img2 from '../assets/image1x2.png';
@@ -50,20 +49,13 @@ const Collaborations = () => {
   return (
     <div className="collaborations container py-5 text-center">
       <h1>Major Collaborations</h1>
-      <Swiper
-        modules={[Autoplay]}
-        spaceBetween={10}
-        slidesPerView={'auto'}
-        autoplay={{ delay: 50 }}
-        loop={true}
-        centeredSlides={false}
-      >
+      <Marquee gradient={false} speed={200}>
         {images.map((img, index) => (
-          <SwiperSlide key={index}>
+          <div key={index} className="marquee-item">
             <img src={img} alt={`Collaboration ${index + 1}`} />
-          </SwiperSlide>
+          </div>
         ))}
-      </Swiper>
+      </Marquee>
     </div>
   );
 };
