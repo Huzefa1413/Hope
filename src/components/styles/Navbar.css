@@ -33,16 +33,18 @@ nav .links {
   list-style: none;
 }
 
-nav .links li {
+nav .links a {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 15px;
   cursor: pointer;
   color: white;
+  text-decoration: none;
   transition: all 0.3s ease-out 0s;
 }
 
-nav .links li:hover {
+nav .links a:hover,
+nav .links a.active {
   color: #2585d1;
 }
 
@@ -88,8 +90,7 @@ nav .donate button:hover {
     display: none;
     position: absolute;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.9);
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -106,45 +107,6 @@ nav .donate button:hover {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-  }
-
-  .burger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .donate {
-    display: none;
-  }
-
-  .donate-mobile {
-    display: block;
-  }
-}
-@media (max-width: 1024px) {
-  .links {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 20px 0;
-    gap: 20px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-
-  .links.open {
-    display: flex;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    backdrop-filter: blur(5px);
   }
 
   .burger {

@@ -1,4 +1,6 @@
 import React, { useState, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
+
 import logo from '../assets/hope_logo.png';
 import './styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,11 +32,21 @@ const Navbar = () => {
           className={`links ${menuOpen ? 'open' : ''}`}
           style={{ top: navRef.current ? navRef.current.clientHeight : 0 }}
         >
-          <li>About Us</li>
-          <li>What we do</li>
-          <li>Achievements</li>
-          <li>Research</li>
-          <li>Contact Us</li>
+          <li>
+            <NavLink to="/aboutus">About Us</NavLink>
+          </li>
+          <li>
+            <NavLink to="/whatwedo">What we do</NavLink>
+          </li>
+          <li>
+            <NavLink to="/achievements">Achievements</NavLink>
+          </li>
+          <li>
+            <NavLink to="/research">Research</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contactus">Contact Us</NavLink>
+          </li>
           <li>
             <div className="donate-mobile">
               <button>Donate Now</button>

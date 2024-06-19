@@ -7,7 +7,6 @@ import Recognition from '../components/Recognition';
 import Footer from '../components/Footer';
 import Achievements from '../components/Achievements';
 import Collaborations from '../components/Collaborations';
-
 const Homepage = () => {
   return (
     <>

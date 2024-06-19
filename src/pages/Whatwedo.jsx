@@ -1,46 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import health from '../assets/health.png';
-import education from '../assets/education.png';
-import vocational from '../assets/vocational.png';
-import women from '../assets/women.png';
-import emergency from '../assets/emergency.png';
-import development from '../assets/development.png';
-
+import { whatwedo } from '../data/data';
 const Whatwedo = () => {
-  const whatwedo = [
-    {
-      logo: health,
-      description: 'Lorem ipsum is description.',
-      name: 'Hope Health',
-    },
-    {
-      logo: education,
-      description: 'Lorem ipsum is description.',
-      name: 'Hope Education',
-    },
-    {
-      logo: vocational,
-      description: 'Lorem ipsum is description.',
-      name: 'Vocational Services',
-    },
-    {
-      logo: women,
-      description: 'Lorem ipsum is description.',
-      name: 'Hope Women',
-    },
-    {
-      logo: emergency,
-      description: 'Lorem ipsum is description.',
-      name: 'Hope Emergencies',
-    },
-    {
-      logo: development,
-      description: 'Lorem ipsum is description.',
-      name: 'Community Development',
-    },
-  ];
+  const navigate = useNavigate();
+
+  const handleReadMore = (link, subpage) => {
+    navigate(`${link}`, { state: { subpage } });
+  };
+
   return (
     <div>
       <Navbar />
@@ -67,7 +36,12 @@ const Whatwedo = () => {
                     <p className="custom-card-description">
                       {card.description}
                     </p>
-                    <button className="custom-card-button">Read More </button>
+                    <button
+                      className="custom-card-button"
+                      onClick={() => handleReadMore(card.link, card.subpage)}
+                    >
+                      Read More
+                    </button>
                   </div>
                 </div>
               </div>

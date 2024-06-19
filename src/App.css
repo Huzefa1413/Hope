@@ -182,7 +182,7 @@ video {
   }
 }
 
-/* styles/Health.css */
+/* styles/Subpage.css */
 
 .blog-card {
   display: flex;
@@ -242,10 +242,12 @@ video {
   line-height: 27px;
   font-weight: 400;
 }
-
+.read-more svg {
+  font-size: 12px;
+}
 .read-more:hover {
-  color: #1b7da8;
-  text-decoration: underline;
+  color: #117ce6;
+  font-size: 17px;
 }
 
 @media (max-width: 600px) {
@@ -257,5 +259,58 @@ video {
   .content {
     align-items: center;
     text-align: center;
+  }
+}
+
+/* styles/Blog.css */
+
+.blog-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.blog-paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.blog-features {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.blog-features li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .blog-heading {
+    font-size: 2rem;
+  }
+
+  .blog-paragraph,
+  .blog-features li {
+    font-size: 0.9rem;
   }
 }
