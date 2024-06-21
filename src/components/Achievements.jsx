@@ -70,7 +70,7 @@ const Achievements = () => {
             >
               <div className="text-content">
                 <p>{achievement.description}</p>
-                <button>Read More</button>
+                {/* <button>Read More</button> */}
               </div>
             </div>
           </SwiperSlide>

@@ -29,12 +29,12 @@ const Subpage = () => {
               <div className="content">
                 <h2>{item.name}</h2>
                 <p>{item.description}</p>
-                <a
+                <h3
                   onClick={() => handleReadMore(item.link, item.blog)}
                   className="read-more"
                 >
                   Read More <FontAwesomeIcon icon={faAngleRight} />
-                </a>
+                </h3>
               </div>
             </div>
             <hr />

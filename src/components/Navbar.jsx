@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import logo from '../assets/hope_logo.png';
 import './styles/Navbar.css';
@@ -25,9 +25,11 @@ const Navbar = () => {
   return (
     <nav className="navbar" ref={navRef}>
       <div className="nav">
-        <div className="logo">
-          <img src={logo} alt="HOPE Logo" />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img src={logo} alt="HOPE Logo" />
+          </div>
+        </Link>
         <ul
           className={`links ${menuOpen ? 'open' : ''}`}
           style={{ top: navRef.current ? navRef.current.clientHeight : 0 }}
