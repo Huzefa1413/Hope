@@ -14,6 +14,7 @@ const Subpage = () => {
   const handleReadMore = (link, blog) => {
     navigate(`${link}`, { state: { blog } });
   };
+
   return (
     <>
       <Navbar />

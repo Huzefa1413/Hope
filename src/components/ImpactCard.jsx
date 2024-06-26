@@ -1,9 +1,19 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './styles/ImpactCard.css';
 
 const ImpactCard = (props) => {
+  console.log(props.info.subpage);
+  const navigate = useNavigate();
+
+  const handleReadMore = (link, subpage) => {
+    navigate(`${link}`, { state: { subpage } });
+  };
   return (
-    <div className="impact_card h-100 text-center p-4">
+    <div
+      onClick={() => handleReadMore(props.info.link, props.info.subpage)}
+      className="impact_card h-100 text-center p-4"
+    >
       <div className="logo mx-auto mb-3">
         <img src={props.info.logo} alt="logo" />
       </div>

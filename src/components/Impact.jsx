@@ -5,15 +5,87 @@ import education from '../assets/education.svg';
 import vocational from '../assets/vocational.svg';
 import aqua from '../assets/aqua.svg';
 import emergency from '../assets/emergency.svg';
+
+import emergencyimg from '../assets/emergency.png';
 import './styles/Impact.css';
 
 const Impact = () => {
   const impact_cards = [
-    { logo: health, name: 'Health Care', count: 550000 },
-    { logo: education, name: 'Education', count: 13000 },
-    { logo: vocational, name: 'Vocational Training', count: 15000 },
-    { logo: aqua, name: 'Aqua Project', count: 130000 },
-    { logo: emergency, name: 'Emergency Relief', count: 500000 },
+    {
+      logo: health,
+      name: 'Health Care',
+      count: 550000,
+      link: 'health_care',
+      subpage: {
+        heading: 'Health Care',
+        para1:
+          'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore',
+        para2:
+          'lorejdaihafihia afhofahfaifa aohfiifajafiofa afoanfaonafnfaiafnafo',
+        subheading: 'Emergency',
+        img: emergencyimg,
+      },
+    },
+    {
+      logo: education,
+      name: 'Education',
+      count: 13000,
+      link: 'education',
+      subpage: {
+        heading: 'Education',
+        para1:
+          'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore',
+        para2:
+          'lorejdaihafihia afhofahfaifa aohfiifajafiofa afoanfaonafnfaiafnafo',
+        subheading: 'Emergency',
+        img: emergencyimg,
+      },
+    },
+    {
+      logo: vocational,
+      name: 'Vocational Training',
+      count: 15000,
+      link: 'vocational_training',
+      subpage: {
+        heading: 'Vocational Training',
+        para1:
+          'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore',
+        para2:
+          'lorejdaihafihia afhofahfaifa aohfiifajafiofa afoanfaonafnfaiafnafo',
+        subheading: 'Emergency',
+        img: emergencyimg,
+      },
+    },
+    {
+      logo: aqua,
+      name: 'Aqua Project',
+      count: 130000,
+      link: 'aqua_project',
+      subpage: {
+        heading: 'Aqua Project',
+        para1:
+          'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore',
+        para2:
+          'lorejdaihafihia afhofahfaifa aohfiifajafiofa afoanfaonafnfaiafnafo',
+        subheading: 'Emergency',
+        img: emergencyimg,
+      },
+    },
+    {
+      logo: emergency,
+      name: 'Emergency Relief',
+      count: 500000,
+      link: 'emergency_relief',
+      subpage: {
+        heading: 'Emergency Relief',
+        para1:
+          'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore',
+        para2:
+          'lorejdaihafihia afhofahfaifa aohfiifajafiofa afoanfaonafnfaiafnafo',
+        subheading: 'Emergency',
+        img: emergencyimg,
+      },
+    },
   ];
 
   return (
