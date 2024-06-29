@@ -7,6 +7,13 @@ import Subpage from './pages/Subpage';
 import Blog from './pages/Blog';
 import ContactUs from './pages/ContactUs';
 import SingleImpact from './components/SingleImpact';
+import AboutUs from './pages/AboutUs';
+import Research from './pages/Research';
+import Scientists from './pages/research/Scientists';
+import Publications from './pages/research/Publications';
+import Projects from './pages/research/Projects';
+import Papers from './pages/research/Papers';
+import LatestNews from './pages/LatestNews';
 
 function App() {
   return (
@@ -14,6 +21,9 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Homepage />} />
+
+        <Route exact path="/aboutus" element={<AboutUs />} />
+
         <Route exact path="/whatwedo" element={<Whatwedo />} />
         <Route exact path="/whatwedo/health" element={<Subpage />} />
         <Route
@@ -33,7 +43,17 @@ function App() {
           path="/whatwedo/services/vocational-centers"
           element={<Blog />}
         />
+
+        <Route exact path="/latest-news" element={<LatestNews />} />
+
+        <Route exact path="/research" element={<Research />} />
+        <Route exact path="/research/papers" element={<Papers />} />
+        <Route exact path="/research/projects" element={<Projects />} />
+        <Route exact path="/research/publications" element={<Publications />} />
+        <Route exact path="/research/scientists" element={<Scientists />} />
+
         <Route exact path="/contactus" element={<ContactUs />} />
+
         <Route exact path="/health_care" element={<SingleImpact />} />
         <Route exact path="/education" element={<SingleImpact />} />
         <Route exact path="/vocational_training" element={<SingleImpact />} />

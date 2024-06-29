@@ -6,7 +6,7 @@
   font-size: 2.875rem;
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   font-family: serif;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .swiper-slide {
-  width: 670px !important;
-  height: 400px !important;
+  width: 570px !important;
+  height: 300px !important;
   position: relative;
 }
 
@@ -62,8 +62,8 @@
 
 .achievements .text-content p {
   font-weight: 300;
-  font-size: 1.25rem;
-  line-height: 2.1875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin: 20px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
