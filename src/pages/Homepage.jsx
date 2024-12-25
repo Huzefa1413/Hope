@@ -1,18 +1,26 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import IntroVideo from '../assets/IntroVideo.mp4';
-import Impact from '../components/Impact';
-import Hope from '../components/Hope';
-import Recognition from '../components/Recognition';
-import Footer from '../components/Footer';
-import Achievements from '../components/Achievements';
-import Collaborations from '../components/Collaborations';
+import React from "react";
+import Navbar from "../components/Navbar";
+
+import IntroWeb from "../assets/Homepage/IntroWeb.mp4";
+import IntroMobile from "../assets/Homepage/IntroMobile.mp4";
+
+import Impact from "../components/Impact";
+import Hope from "../components/Hope";
+import Recognition from "../components/Recognition";
+import Achievements from "../components/Achievements";
+import Collaborations from "../components/Collaborations";
+import Footer from "../components/Footer";
+
 const Homepage = () => {
   return (
     <>
       <Navbar />
-      <div className="video">
-        <video src={IntroVideo} autoPlay muted loop></video>
+      <div className="video web">
+        <video src={IntroWeb} autoPlay muted loop></video>
+        <div className="overlay"></div>
+      </div>
+      <div className="video mobile">
+        <video src={IntroMobile} autoPlay muted loop></video>
         <div className="overlay"></div>
       </div>
       <Impact />

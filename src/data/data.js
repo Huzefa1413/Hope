@@ -4,7 +4,7 @@ import vocational from '../assets/vocational.png';
 import women from '../assets/women.png';
 import emergency from '../assets/emergency.png';
 import development from '../assets/development.png';
-import ach from '../assets/achievement-thubmnail-1.png';
+import ach from '../assets/Achievement/achievement-thubmnail-1.png';
 
 export const whatwedo = [
   {

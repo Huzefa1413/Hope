@@ -59,7 +59,9 @@ function App() {
         <Route exact path="/vocational_training" element={<SingleImpact />} />
         <Route exact path="/aqua_project" element={<SingleImpact />} />
         <Route exact path="/emergency_relief" element={<SingleImpact />} />
-
+        <Route exact path="/food_security" element={<SingleImpact />} />
+        <Route exact path="/ramazan_activities" element={<SingleImpact />} />
+        <Route exact path="/qurbani_udhiya" element={<SingleImpact />} />
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>
     </BrowserRouter>

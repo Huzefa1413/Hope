@@ -1,8 +1,8 @@
-import React from 'react';
-import mission from '../assets/mission.svg';
-import vision from '../assets/vision.svg';
-import chairperson from '../assets/chairperson.png';
-import './styles/Hope.css';
+import React from "react";
+import mission from "../assets/Homepage/mission.svg";
+import vision from "../assets/Homepage/vision.svg";
+import chairperson from "../assets/Homepage/chairperson.png";
+import "./styles/Hope.css";
 
 const Hope = () => {
   return (
@@ -21,7 +21,7 @@ const Hope = () => {
           </p>
         </div>
         <div className="col-md-6 d-flex flex-wrap justify-content-between">
-          <div className="col-sm-6 mb-2">
+          <div className="col-sm-6 mb-2 px-1">
             <img src={mission} alt="Mission" className="mb-3 icon-size" />
             <h3 className="text-primary">Our Mission:</h3>
             <p>
@@ -30,7 +30,7 @@ const Hope = () => {
               educational facilities.
             </p>
           </div>
-          <div className="col-sm-6 mb-2">
+          <div className="col-sm-6 mb-2 px-1">
             <img src={vision} alt="Vision" className="mb-3 icon-size" />
             <h3 className="text-primary">Our Vision:</h3>
             <p>

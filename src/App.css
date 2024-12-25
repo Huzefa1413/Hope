@@ -2,17 +2,15 @@
 .video {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: black;
 }
 
 video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .overlay {
@@ -44,6 +42,14 @@ video {
   font-family: sans-serif;
 }
 
+.video.mobile {
+  display: block;
+}
+
+.video.web {
+  display: none;
+}
+
 /* Responsive font sizes */
 @media (max-width: 1200px) {
   .main > h1 {
@@ -69,6 +75,16 @@ video {
   }
   .main > p {
     font-size: 0.75rem; /* Even smaller font size for extra small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .video.mobile {
+    display: none;  /* Hides the mobile video on web */
+  }
+
+  .video.web {
+    display: block;  /* Displays the web video on larger screens */
   }
 }
 
@@ -341,6 +357,7 @@ video {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .contact-info h2 {
@@ -520,7 +537,6 @@ video {
 }
 
 .team-member-card {
-  margin: 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   overflow: hidden;
@@ -531,6 +547,8 @@ video {
 .team-member-card img {
   width: 300px;
   height: 300px;
+  border-radius: 100%;
+  margin-top: 10px;
   object-fit: cover;
   align-self: center;
 }
@@ -650,7 +668,7 @@ video {
   font-weight: 400;
   color: rgb(105, 105, 207) !important;
 }
-.paper-card button {
+.paper-card a {
   border: 0;
   background-color: #2585d1;
   padding: 5px 31px;
@@ -662,6 +680,7 @@ video {
   line-height: 22.5px;
   color: white;
   transition: all 0.3s ease-out 0s;
+  text-decoration: none;
 }
 .paper-card button:hover {
   background-color: #2584d1b3;

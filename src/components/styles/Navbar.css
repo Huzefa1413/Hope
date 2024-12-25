@@ -48,11 +48,11 @@ nav .links a.active {
   color: #2585d1;
 }
 
-nav .donate button,
-nav .donate-mobile button {
+nav .donate a,
+nav .donate-mobile a {
   border: 0;
   background-color: #2585d1;
-  padding: 5px 31px;
+  padding: 10px 31px;
   border-radius: 30px;
   cursor: pointer;
   font-family: sans-serif;
@@ -61,10 +61,15 @@ nav .donate-mobile button {
   line-height: 22.5px;
   color: white;
   transition: all 0.3s ease-out 0s;
+  text-decoration: none;
 }
 
-nav .donate button:hover {
+nav .donate a:hover {
   background-color: #2584d1b3;
+}
+nav .donate-mobile a:hover {
+  background-color: #2584d1b3;
+  color: white;
 }
 
 .donate-mobile {

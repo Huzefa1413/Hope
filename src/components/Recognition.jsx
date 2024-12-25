@@ -1,7 +1,7 @@
-import React from 'react';
-import left from '../assets/dr.mubina-agboatwalla-chairperson-hope.png';
-import right from '../assets/mubina-agboatwala-dr-arif-alvi.jpg';
-import './styles/Recognition.css';
+import React from "react";
+import left from "../assets/Homepage/dr.mubina-agboatwalla-chairperson-hope.png";
+import right from "../assets/Homepage/mubina-agboatwala-dr-arif-alvi.jpg";
+import "./styles/Recognition.css";
 
 const Recognition = () => {
   return (
@@ -18,10 +18,10 @@ const Recognition = () => {
             className="img-fluid w-100 mb-3"
           />
           <p>
-            An award has been honored.{' '}
+            An award has been honored.{" "}
             <span className="name">Dr. Mubina Agboatwalla</span> is receiving a
-            certificate from{' '}
-            <span className="pres">Arif Alvi, President of Pakistan</span> at{' '}
+            certificate from{" "}
+            <span className="pres">Arif Alvi, President of Pakistan</span> at{" "}
             <span className="pres">AERONS event</span>.
           </p>
         </div>

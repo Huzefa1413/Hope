@@ -1,6 +1,6 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import './styles/ImpactCard.css';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./styles/ImpactCard.css";
 
 const ImpactCard = (props) => {
   console.log(props.info.subpage);

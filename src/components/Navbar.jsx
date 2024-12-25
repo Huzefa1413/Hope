@@ -1,10 +1,10 @@
-import React, { useState, useRef } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import React, { useState, useRef } from "react";
+import { NavLink, Link } from "react-router-dom";
 
-import logo from '../assets/hope_logo.png';
-import './styles/Navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import logo from "../assets/Nav-Foot/hope_logo.png";
+import "./styles/Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   };
 
-  window.addEventListener('resize', handleResize);
+  window.addEventListener("resize", handleResize);
 
   return (
     <nav className="navbar" ref={navRef}>
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
         </Link>
         <ul
-          className={`links ${menuOpen ? 'open' : ''}`}
+          className={`links ${menuOpen ? "open" : ""}`}
           style={{ top: navRef.current ? navRef.current.clientHeight : 0 }}
         >
           <li>
@@ -40,8 +40,11 @@ const Navbar = () => {
           <li>
             <NavLink to="/whatwedo">What we do</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/latest-news">Latest News</NavLink>
+          </li> */}
+          <li>
+            <a href="https://www.hopecharityusa.org/latest-news">Latest News</a>
           </li>
           <li>
             <NavLink to="/research">Research</NavLink>
@@ -51,12 +54,14 @@ const Navbar = () => {
           </li>
           <li>
             <div className="donate-mobile">
-              <button>Donate Now</button>
+              <a href="https://www.hopecharityusa.org/donate-today">
+                Donate Now
+              </a>
             </div>
           </li>
         </ul>
-        <div className={`donate ${menuOpen ? 'open' : ''}`}>
-          <button>Donate Now</button>
+        <div className={`donate ${menuOpen ? "open" : ""}`}>
+          <a href="https://www.hopecharityusa.org/donate-today">Donate Now</a>
         </div>
         <div className="burger" onClick={toggleMenu}>
           <FontAwesomeIcon

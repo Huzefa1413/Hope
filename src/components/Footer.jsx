@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from '../assets/hope_logo.png';
-import './styles/Footer.css';
+import React from "react";
+import logo from "../assets/Nav-Foot/hope_logo.png";
+import "./styles/Footer.css";
 import {
   faInstagram,
   faFacebook,
-  faLinkedin,
+  faTwitter,
   faYoutube,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
@@ -18,22 +18,42 @@ const Footer = () => {
             <img src={logo} alt="HOPE Logo" className="img-fluid mb-3" />
             <ul className="social list-inline">
               <li className="list-inline-item">
-                <a href="https://facebook.com" className="text-light">
+                <a
+                  href="https://www.facebook.com/ngo.hope/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light"
+                >
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://instagram.com" className="text-light">
+                <a
+                  href="https://www.instagram.com/hope_charities_usa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light"
+                >
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://linkedin.com" className="text-light">
-                  <FontAwesomeIcon icon={faLinkedin} />
+                <a
+                  href="https://x.com/HOPE_CharityUSA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light"
+                >
+                  <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://youtube.com" className="text-light">
+                <a
+                  href="https://www.youtube.com/channel/UCDF8h6bqvh05QnuI_qcL0fg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-light"
+                >
                   <FontAwesomeIcon icon={faYoutube} />
                 </a>
               </li>
@@ -47,6 +67,9 @@ const Footer = () => {
               <li>Vocational Training</li>
               <li>Aqua Project</li>
               <li>Emergency Relief</li>
+              <li>Food Security</li>
+              <li>Ramadan Activities</li>
+              <li>Qurbani/Udhiya</li>
             </ul>
           </div>
           <div className="col-md-3 mb-4">
@@ -61,8 +84,8 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5>Contact Info</h5>
             <ul className="list-unstyled">
-              <li>Phone: +923352223102</li>
-              <li>Email: hzefa@gmail.com</li>
+              <li>Phone: +92-21-35069450 – 35071423</li>
+              <li>Email: agboat@hope-ngo.com</li>
             </ul>
           </div>
         </div>

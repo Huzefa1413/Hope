@@ -1,6 +1,6 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const ContactUs = () => {
   return (
@@ -15,15 +15,42 @@ const ContactUs = () => {
         <div className="row">
           <div className="col-md-6 mb-4">
             <div className="contact-info">
-              <h2>Contact Information</h2>
+              <h2>HOPE Community Center, Karachi</h2>
               <p>
-                <strong>Address:</strong> 1234 Street Name, City, State, 12345
+                <strong>Address:</strong> Plot # B-40, Street # 28, sector #
+                32-A, Zia Colony, Korangi Industrial Area, Karachi, Pakistan.
               </p>
               <p>
-                <strong>Phone:</strong> (123) 456-7890
+                <strong>Phone:</strong> +92-21-35069450 – 35071423
               </p>
               <p>
-                <strong>Email:</strong> info@hope.com
+                <strong>Email:</strong> agboat@hope-ngo.com
+              </p>
+            </div>
+            <div className="contact-info">
+              <h2>HOPE Field Office, Karachi</h2>
+              <p>
+                <strong>Address:</strong> 41-A, Amil Colony, Near Mazar-e-Quiad,
+                Karachi.
+              </p>
+              <p>
+                <strong>Phone:</strong> +92-21-32243889 – 32239930
+              </p>
+              <p>
+                <strong>Email:</strong> agboat@hope-ngo.com
+              </p>
+            </div>
+            <div className="contact-info">
+              <h2>HOPE Community Center, Thatta</h2>
+              <p>
+                <strong>Address:</strong> Satiyoon Road, Bukahri Moholla,
+                Thatta.
+              </p>
+              <p>
+                <strong>Phone:</strong> +92-298-550491 – 550492
+              </p>
+              <p>
+                <strong>Email:</strong> agboat@hope-ngo.com
               </p>
             </div>
           </div>
