@@ -2,19 +2,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import paper from "../assets/Research/paper.jpg";
-import project from "../assets/Research/project.jpg";
-import publication from "../assets/Research/publication.jpg";
-import scientist from "../assets/Research/scientist.jpeg";
+import { researchItems } from "../data/data";
 
 const Research = () => {
-  const researchItems = [
-    { title: "Papers", link: "papers", img: paper },
-    { title: "Projects", link: "projects", img: project },
-    { title: "Publications", link: "publications", img: publication },
-    { title: "Scientists", link: "scientists", img: scientist },
-  ];
-
   return (
     <>
       <Navbar />

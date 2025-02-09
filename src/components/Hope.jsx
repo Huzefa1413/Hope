@@ -11,13 +11,28 @@ const Hope = () => {
         <div className="col-md-6">
           <h1>What is Hope?</h1>
           <p>
-            (Health Oriented Preventive Education) is an NGO providing services
-            of health and education for the poor and needy in Pakistan. The
-            major activities of HOPE includes provision of health care through
-            hospitals and maternal and child health centers. In addition
-            education for children is provided through formal and informal
-            schools. Vocational centers provide computers and vocational
-            training for youth.
+            Health Oriented Preventive Education is a non-governmental (NGO)
+            organization dedicated to tackling poverty in rural and remote
+            villages along with urban slum areas throughout Pakistan. Since
+            1997, we have utilized a grassroots approach to ignite and fuel
+            transformative change within underserved communities. Our
+            humanitarian efforts rely upon a comprehensive, tried and true model
+            of poverty alleviation which spans the following avenues:
+            <ul>
+              <li>Healthcare</li>
+              <li>Education</li>
+              <li>Vocational Training</li>
+              <li>Clean Water</li>
+              <li>Food Security</li>
+              <li>Disaster Relief</li>
+              <li>Ramadan Outreach</li>
+              <li>Qurbani</li>
+            </ul>
+            Altogether, we operate a network of Healthcare facilities, Schools,
+            and Vocational Centers which treat 900,000+ patients annually,
+            educate 11,000+ children per year, and provide income-generating
+            vocational training skills to 6,000+ young adults, all for
+            free/nominal cost. 70% of our beneficiaries are women and children.
           </p>
         </div>
         <div className="col-md-6 d-flex flex-wrap justify-content-between">
@@ -42,28 +57,32 @@ const Hope = () => {
       </div>
       <div className="row align-items-center">
         <div className="col-md-8">
-          <h1>Chairperson’s Message</h1>
+          <h1>Our Story:</h1>
           <p>
-            HOPE was started by a group of volunteers who wanted to bring a
-            change in the lives of the poor and impoverished by bringing health
-            and education to their doorsteps. HOPE was established in 1997 since
-            more than 20 years and has grown from a band of street volunteers to
-            a huge national network of schools and hospitals. Health and
-            education are priority areas of HOPE, whereby HOPE is running four
-            secondary care hospitals, MCH Centres and Mobile Health Units. The
-            HOPE network extends from Karachi in the south to Thatta, Badin,
-            Muzaffargarh (Punjab) and the mountains of Kashmir. Vocational
-            Centres for youth in computer training and sewing/cutting are
-            established. Research activities of HOPE extends from collaborations
-            with the Centre for Disease Control (CDC), WHO, UNICEF among others
-            on topics such as hand washing, Safe water, Safe injections,
-            Poliomyelitis, tuberculosis etc. The education component forms the
-            foundation of HOPE’s activities as without education of children and
-            youth there will be no awareness and enlightenment. The future
-            vision of HOPE is to expand its activities in other remote areas of
-            Pakistan. With God’s help, HOPE will go where others have not dared.
-            We are but just a drop in the ocean, but we will strive to change
-            the lives of the people we touch.
+            HOPE was the inspiration of Dr. Mubina Agboatwalla, a pediatrician
+            by profession who helped eradicate polio from Pakistan in the early
+            stages of her career. In 1997, while working in Karachi’s
+            government-sponsored hospital for the needy, Civil Hospital, Dr.
+            Mubina thought of a vision for the betterment of the citizens of her
+            country. She and a small band of volunteers joined forces to
+            establish HOPE as a nonprofit governmental organization in Pakistan.
+          </p>
+          <p>
+            Due to Dr. Mubina's medical background, HOPE's initial objective was
+            to provide the poor with better access to medical centers and
+            hospitals. In a country grappling with basic issues such as lack of
+            access to clean drinking water, poor maternal and infant health,
+            malnutrition in children, prevention and treatment of diseases such
+            as malaria, cholera, and tuberculosis, it already seemed as though
+            HOPE had enough of a challenge on its hands. But soon Dr. Mubina
+            realized that the cornerstone of a productive and forward-thinking
+            community relies on both a healthy body and healthy mind. She honed
+            her vision to an integrative approach that was twofold: Health and
+            Education. Today, HOPE has evolved to an organization that
+            prioritizes the health and education opportunities of underserved
+            women and children in Pakistan. HOPE aims to empower women and
+            children with quality education and health services so that they can
+            harness their greatest potentials.
           </p>
         </div>
         <div className="col-md-4 text-center">

@@ -20,7 +20,6 @@ const Subpage = () => {
       <Navbar />
       <div className="main container text-center py-5">
         <h1 className="pt-5">{subpage.heading}</h1>
-        <p>{subpage.description}</p>
         {subpage.loop.map((item, index) => (
           <>
             <div className="blog-card py-3" key={index}>

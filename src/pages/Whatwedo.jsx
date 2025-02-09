@@ -33,9 +33,6 @@ const Whatwedo = () => {
                   </div>
                   <div className="custom-card-body">
                     <p className="custom-card-title">{card.name}</p>
-                    <p className="custom-card-description">
-                      {card.description}
-                    </p>
                     <button
                       className="custom-card-button"
                       onClick={() => handleReadMore(card.link, card.subpage)}

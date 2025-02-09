@@ -6,7 +6,7 @@ import "./styles/Recognition.css";
 const Recognition = () => {
   return (
     <div className="recognition container py-5 text-center">
-      <h1>Recognition of HOPE</h1>
+      <h1>Honorable Mentions:</h1>
       <div className="row mt-5">
         <div className="col-lg-6 col-md-12 mb-4">
           <img src={left} alt="Dr. Mubina Agboatwalla" className="img-fluid" />
@@ -18,11 +18,9 @@ const Recognition = () => {
             className="img-fluid w-100 mb-3"
           />
           <p>
-            An award has been honored.{" "}
-            <span className="name">Dr. Mubina Agboatwalla</span> is receiving a
-            certificate from{" "}
-            <span className="pres">Arif Alvi, President of Pakistan</span> at{" "}
-            <span className="pres">AERONS event</span>.
+            In 2021, <span className="name">HOPE</span> was awarded a medal for our poverty alleviation
+            efforts by <span className="pres">Pakistan President Arif Alvi</span> - we were 1 of only 2
+            organizations to receive this honor.
           </p>
         </div>
       </div>

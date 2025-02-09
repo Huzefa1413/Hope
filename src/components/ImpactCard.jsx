@@ -18,7 +18,7 @@ const ImpactCard = (props) => {
         <img src={props.info.logo} alt="logo" />
       </div>
       <h1 className="h5">{props.info.name}</h1>
-      <p className="text-muted">{props.info.count}+ lives impacted</p>
+      <p className="text-muted">{props.info.count}<br/>{props.info?.count2}</p>
     </div>
   );
 };

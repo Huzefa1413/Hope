@@ -13,9 +13,9 @@ const Blog = () => {
       <div className="blog-container py-5 mt-5">
         <h1 className="blog-heading">{blog.heading}</h1>
         <p className="blog-paragraph">{blog.para1}</p>
-        <p className="blog-paragraph">{blog.para2}</p>
+        <p className="blog-paragraph">{blog?.para2}</p>
         <ul className="blog-features">
-          {blog.features.map((feature, index) => (
+          {blog?.features?.map((feature, index) => (
             <li key={index}>{feature}</li>
           ))}
         </ul>

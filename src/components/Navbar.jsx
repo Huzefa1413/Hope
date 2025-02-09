@@ -44,7 +44,7 @@ const Navbar = () => {
             <NavLink to="/latest-news">Latest News</NavLink>
           </li> */}
           <li>
-            <a href="https://www.hopecharityusa.org/latest-news">Latest News</a>
+            <a href="https://www.hopecharityusa.org/latest-news" target="blank">Latest News</a>
           </li>
           <li>
             <NavLink to="/research">Research</NavLink>
@@ -54,14 +54,14 @@ const Navbar = () => {
           </li>
           <li>
             <div className="donate-mobile">
-              <a href="https://www.hopecharityusa.org/donate-today">
+              <a href="https://www.hopecharityusa.org/donate-today" target="blank">
                 Donate Now
               </a>
             </div>
           </li>
         </ul>
         <div className={`donate ${menuOpen ? "open" : ""}`}>
-          <a href="https://www.hopecharityusa.org/donate-today">Donate Now</a>
+          <a href="https://www.hopecharityusa.org/donate-today" target="blank">Donate Now</a>
         </div>
         <div className="burger" onClick={toggleMenu}>
           <FontAwesomeIcon

@@ -1,19 +1,19 @@
-import './App.css';
-import ScrollToTop from './ScrollToTop';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './pages/Homepage';
-import Whatwedo from './pages/Whatwedo';
-import Subpage from './pages/Subpage';
-import Blog from './pages/Blog';
-import ContactUs from './pages/ContactUs';
-import SingleImpact from './components/SingleImpact';
-import AboutUs from './pages/AboutUs';
-import Research from './pages/Research';
-import Scientists from './pages/research/Scientists';
-import Publications from './pages/research/Publications';
-import Projects from './pages/research/Projects';
-import Papers from './pages/research/Papers';
-import LatestNews from './pages/LatestNews';
+import "./App.css";
+import ScrollToTop from "./ScrollToTop";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Whatwedo from "./pages/Whatwedo";
+import Subpage from "./pages/Subpage";
+import Blog from "./pages/Blog";
+import ContactUs from "./pages/ContactUs";
+import SingleImpact from "./components/SingleImpact";
+import AboutUs from "./pages/AboutUs";
+import Research from "./pages/Research";
+import Scientists from "./pages/research/Scientists";
+import Publications from "./pages/research/Publications";
+import Projects from "./pages/research/Projects";
+import Papers from "./pages/research/Papers";
+import LatestNews from "./pages/LatestNews";
 
 function App() {
   return (
@@ -29,6 +29,41 @@ function App() {
         <Route
           exact
           path="/whatwedo/health/karachi-hospital"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-child-center"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/medical-center-hub"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/medical-center-sujawal"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/mobile-health-unit-mhu"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/nutrition-2007"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/nutrition-2010-2011"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/pg-purifier-of-water-distribution"
           element={<Blog />}
         />
         <Route exact path="/whatwedo/education" element={<Subpage />} />
