@@ -14,11 +14,7 @@ const Whatwedo = () => {
     <div>
       <Navbar />
       <div className="main container text-center py-5">
-        <h1 className="pt-5">What We Do?</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut
-          labore
-        </p>
+        <h1 className="pt-5">What We Do</h1>
         <div className="row">
           {whatwedo.map((card, index) => (
             <div className="col-md-4 mb-4" key={index}>
@@ -33,6 +29,7 @@ const Whatwedo = () => {
                   </div>
                   <div className="custom-card-body">
                     <p className="custom-card-title">{card.name}</p>
+                    <p className="custom-card-description">{card.description}</p>
                     <button
                       className="custom-card-button"
                       onClick={() => handleReadMore(card.link, card.subpage)}

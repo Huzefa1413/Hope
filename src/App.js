@@ -28,54 +28,201 @@ function App() {
         <Route exact path="/whatwedo/health" element={<Subpage />} />
         <Route
           exact
-          path="/whatwedo/health/karachi-hospital"
+          path="/whatwedo/health/hope-hospital-gurumandir"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/maternal-child-center"
+          path="/whatwedo/health/hope-hospital-zia-colony"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/medical-center-hub"
+          path="/whatwedo/health/hope-hospital-thatta"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/medical-center-sujawal"
+          path="/whatwedo/health/hope-hospital-sujawal"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/mobile-health-unit-mhu"
+          path="/whatwedo/health/maternal-center-manzoor-colony"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/nutrition-2007"
+          path="/whatwedo/health/maternal-center-mujahhid-colony"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/nutrition-2010-2011"
+          path="/whatwedo/health/maternal-center-bilal-colony"
           element={<Blog />}
         />
         <Route
           exact
-          path="/whatwedo/health/pg-purifier-of-water-distribution"
+          path="/whatwedo/health/maternal-center-korangi"
           element={<Blog />}
         />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-center-zia-colony"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-center-langarpura"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-center-chikaar"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-center-kpk"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/health/maternal-center-mansehra"
+          element={<Blog />}
+        />
+        <Route exact path="/whatwedo/health/health-unit" element={<Blog />} />
+        <Route
+          exact
+          path="/whatwedo/health/health-unit-mobile"
+          element={<Blog />}
+        />
+
         <Route exact path="/whatwedo/education" element={<Subpage />} />
         <Route
           exact
-          path="/whatwedo/education/barclays-hope-home-schools"
+          path="/whatwedo/education/zia-colony-school"
           element={<Blog />}
         />
-        <Route exact path="/whatwedo/services" element={<Subpage />} />
         <Route
           exact
-          path="/whatwedo/services/vocational-centers"
+          path="/whatwedo/education/muzaffargarh-school"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/education/thatta-school"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/education/kashmir-school"
+          element={<Blog />}
+        />
+
+        <Route
+          exact
+          path="/whatwedo/vocational_training"
+          element={<Subpage />}
+        />
+        <Route
+          exact
+          path="/whatwedo/vocational_training/vocational-center-zia-colony"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/vocational_training/vocational-center-bilal-colony"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/vocational_training/vocational-center-thatta"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/vocational_training/vocational-center-badin"
+          element={<Blog />}
+        />
+
+        <Route exact path="/whatwedo/aqua_project" element={<Subpage />} />
+        <Route
+          exact
+          path="/whatwedo/aqua_project/aqua_project-details"
+          element={<Blog />}
+        />
+
+        <Route exact path="/whatwedo/food_security" element={<Subpage />} />
+        <Route
+          exact
+          path="/whatwedo/food_security/tackling-food-insecurity"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/food_security/monthly-food-rations"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/food_security/distribution-of-food"
+          element={<Blog />}
+        />
+
+        <Route exact path="/whatwedo/emergency_relief" element={<Subpage />} />
+        <Route
+          exact
+          path="/whatwedo/emergency_relief/2022-pakistan-floods"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/emergency_relief/2005-kashmir-earthquake"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/emergency_relief/swat-relief-operation"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/emergency_relief/2007-dadu-cyclone"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/emergency_relief/2008-balochistan-earthquake"
+          element={<Blog />}
+        />
+
+        <Route exact path="/whatwedo/ramazan" element={<Subpage />} />
+        <Route
+          exact
+          path="/whatwedo/ramazan/community-iftars"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/ramazan/door-to-door-iftars"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/ramazan/distribution-of-clothes"
+          element={<Blog />}
+        />
+        <Route
+          exact
+          path="/whatwedo/ramazan/distribution-of-food-rations"
+          element={<Blog />}
+        />
+
+        <Route exact path="/whatwedo/qurbani" element={<Subpage />} />
+        <Route
+          exact
+          path="/whatwedo/qurbani/qurbani-udhiya-distribution"
           element={<Blog />}
         />
 

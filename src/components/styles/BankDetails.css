@@ -1,0 +1,71 @@
+.bankDetails {
+  padding: 6.25rem 2rem;
+}
+
+.bankDetails h1 {
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  font-family: serif;
+}
+
+.bankDetails .bankName {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.bankDetails .card-body {
+  padding: 20px 30px;
+  text-align: left;
+}
+
+.bankDetails .card-body p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .bankDetails h1 {
+    font-size: 2.25rem;
+  }
+
+  .bankDetails .bankName {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+  }
+
+  .bankDetails .card-body {
+    padding: 18px 26px;
+    text-align: left;
+  }
+
+  .bankDetails .card-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .bankDetails h1 {
+    font-size: 1.75rem;
+  }
+
+  .bankDetails .bankName {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+  }
+
+  .bankDetails .card-body {
+    padding: 16px 24px;
+    text-align: left;
+  }
+
+  .bankDetails .card-body p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+}

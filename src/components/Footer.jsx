@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5>Our Impact</h5>
             <ul className="list-unstyled">
-              <li>Health Care</li>
+              <li>Healthcare</li>
               <li>Education</li>
               <li>Vocational Training</li>
               <li>Aqua Project</li>

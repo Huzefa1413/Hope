@@ -9,6 +9,7 @@ import Hope from "../components/Hope";
 import Recognition from "../components/Recognition";
 import Achievements from "../components/Achievements";
 import Collaborations from "../components/Collaborations";
+import BankDetails from "../components/BankDetails";
 import Footer from "../components/Footer";
 
 const Homepage = () => {
@@ -16,17 +17,18 @@ const Homepage = () => {
     <>
       <Navbar />
       <div className="video web">
-        <video src={IntroWeb} autoPlay muted loop></video>
+        <video src={IntroWeb} autoPlay loop></video>
         <div className="overlay"></div>
       </div>
       <div className="video mobile">
-        <video src={IntroMobile} autoPlay muted loop></video>
+        <video src={IntroMobile} autoPlay loop></video>
         <div className="overlay"></div>
       </div>
       <Impact />
       <Hope />
       <Recognition />
       <Achievements />
+      <BankDetails />
       <Collaborations />
       <Footer />
     </>

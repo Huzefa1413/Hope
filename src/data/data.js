@@ -1,11 +1,3 @@
-import health from "../assets/health.png";
-import education from "../assets/education.png";
-import vocational from "../assets/vocational.png";
-import women from "../assets/women.png";
-import emergency from "../assets/emergency.png";
-import development from "../assets/development.png";
-import ach from "../assets/Achievement/achievement-thubmnail-1.png";
-
 import paper from "../assets/Research/paper.jpg";
 import project from "../assets/Research/project.jpg";
 import publication from "../assets/Research/publication.jpg";
@@ -14,9 +6,7 @@ import scientist from "../assets/Research/scientist.jpeg";
 import PersonImg0 from "../assets/About/kassim-0.png";
 import PersonImg1 from "../assets/About/suleman-1.png";
 import PersonImg2 from "../assets/About/saira-2.png";
-import PersonImg3 from "../assets/About/reema-3.png";
 import PersonImg4 from "../assets/About/fozia-4.png";
-import PersonImg5 from "../assets/About/irum-5.png";
 import PersonImg6 from "../assets/About/shahida-6.png";
 import PersonImg7 from "../assets/About/ismail-7.png";
 import PersonImg8 from "../assets/About/jamil-8.png";
@@ -74,284 +64,815 @@ import paper11 from "../assets/Research/Papers/SoapHealth-ARI-Lancet-Man-Report-
 import paper12 from "../assets/Research/Papers/Khi_Handwashing_Follow-up_AJTMH_Man.pdf";
 import paper13 from "../assets/Research/Papers/BDN-Report-1.pdf";
 
-import karachihospital from "../assets/WhatWeDo/karachi-hospital.png"
-import maternalchildcenter from "../assets/WhatWeDo/MCH-centre-gallery.jpg"
-import medicalcenterhub from "../assets/WhatWeDo/health-unit-in-hub.png"
-import medicalcentersujawal from "../assets/WhatWeDo/health-unit-in-sajawal.png"
-import mobilehealthunit from "../assets/WhatWeDo/mobile-health-unit.png"
-import nutrition2007 from "../assets/WhatWeDo/Nutrition-gallery.jpg"
-import nutrition2010 from "../assets/WhatWeDo/nutrition-2010-2011.png"
-import purifier from "../assets/WhatWeDo/purifier-distribution.png"
+import gurumandirHospital from "../assets/WhatWeDo/gurumandir.jpg";
+import ziaHospital from "../assets/WhatWeDo/ZiaColony.jpg";
+import thattaHospital from "../assets/WhatWeDo/ThattaHospital.jpg";
+import sujawalHospital from "../assets/WhatWeDo/sujawal.jpg";
+import maternalManzoor from "../assets/WhatWeDo/MCHCManzoor.jpg";
+import maternalMujahhid from "../assets/WhatWeDo/MujahidMCHC.jpg";
+import maternalBilal from "../assets/WhatWeDo/BilalMCHC.jpg";
+import maternalKorangi from "../assets/WhatWeDo/korangi.jpg";
+import maternalZia from "../assets/WhatWeDo/zia.jpg";
+import maternalChikaar from "../assets/WhatWeDo/chikaar.jpg";
+import maternalKpk from "../assets/WhatWeDo/kpk.jpg.png";
+import maternalLangarpura from "../assets/WhatWeDo/langarpura.png";
+import maternalMansehra from "../assets/WhatWeDo/mansehra.png";
+import healthUnit from "../assets/WhatWeDo/healthunit.jpg";
+import healthUnitMobile from "../assets/WhatWeDo/healthunitmobile.jpg";
 
-import barclayschool from "../assets/WhatWeDo/barclays-schools.jpg"
+import ziaschool from "../assets/WhatWeDo/ZiaColonySchool.jpg";
+import muzaffargarhSchool from "../assets/WhatWeDo/Muzaffargarh.jpg";
+import thattaSchool from "../assets/WhatWeDo/ThattaSchool.jpg";
+import kashmirSchool from "../assets/WhatWeDo/KashmirHomeSchool3.jpg";
+
+import vocationalZia from "../assets/WhatWeDo/ZiaColonyVocational.jpg";
+import vocationalBilal from "../assets/WhatWeDo/vocationalbilal.jpg";
+import vocationalThatta from "../assets/WhatWeDo/vocationalThatta.jpg";
+import vocationalBadin from "../assets/WhatWeDo/BadinVocational.jpg";
+
+import aquaDetails from "../assets/WhatWeDo/aqua.jpg";
+
+import tacklingFoodInsecurity from "../assets/WhatWeDo/tacklingfoodsecurity.png";
+import monthlyFoodRations from "../assets/WhatWeDo/monthlyfoodrations.jpg";
+import distributionOfFood from "../assets/WhatWeDo/distributionoffood.jpg";
+
+import communityIftar from "../assets/WhatWeDo/communityIftar.jpg";
+import doorToDoorIftar from "../assets/WhatWeDo/doortodooriftar.jpg";
+import distributionOfClothes from "../assets/WhatWeDo/distributionofclothes.jpg";
+import distributionOfFoodRations from "../assets/WhatWeDo/distributionoffoodrations.png";
+
+import qurabaniUdhiya from "../assets/WhatWeDo/qurbani.jpg"
+
+import PakistanFloods2022 from "../assets/WhatWeDo/2022pakistanflood.jpg";
+import KashmirEarthquake2005 from "../assets/WhatWeDo/kashmirearthquake2005.jpg";
+import swatReliefOperation from "../assets/WhatWeDo/swatreliefoperation.jpg";
+import DaduCyclone2007 from "../assets/WhatWeDo/daducyclone.jpg";
+import BalochistanEarthquake2008 from "../assets/WhatWeDo/balochistanearthquake.jpg";
 
 export const whatwedo = [
   {
-    logo: health,
-    name: "Hope Health",
+    logo: healthMain,
+    name: "Healthcare",
+    description: "Saving Lives",
     link: "health",
     subpage: {
-      heading: "Health",
+      heading: "Healthcare",
       loop: [
         {
-          logo: karachihospital,
+          logo: gurumandirHospital,
           description:
-            "A multi purpose HOPE Community Center has been constructed in Zia Colony, Korangi Karachi with the assistance from the Japanese Embassy Grass Root Assistance (GRA) Programme.",
-          name: "Karachi Hospital",
-          link: "karachi-hospital",
+            "HOPE’s Gurumandir Hospital was founded in 2012 and saw 90,080 patients in 2023.",
+          name: "HOPE Hospital Gurumandir",
+          link: "hope-hospital-gurumandir",
           blog: {
-            heading: "Karachi Hospital",
+            heading: "HOPE Hospital Gurumandir",
             para1:
-              "A multi purpose HOPE Community Center has been constructed in Zia Colony, Korangi Karachi with the assistance from the Japanese Embassy Grass Root Assistance (GRA) Programme. The Hospital provides quality health care facilities for the poor and needy of the area.",
+              "HOPE’s Gurumandir Hospital was founded in 2012 and saw 90,080 patients in 2023.  It is a 12 bedded hospital located in the heart of Karachi and provides health care services and medicines free of cost.  HOPE Gurumandir has a labor and delivery room, cesarean section facilities, 24 hour emergency unit, surgery facilities, and outpatient services.  The following services are offered to the impoverished population:",
             para2:
-              "Annually, 20 to 25,000 patients are seen. These patients come from all over Korangi Town and surrounding areas and cannot afford the expenses of going to private hospitals. On an average the income of each family varies from Rs. 3000 to 5000 per month with a family size of at least 7 persons per household. Government health facilities like Civil and Jinnah hospital are at least 45 minutes to an hour away. Incase of emergences such as pregnant women bleeding, or a dehydrated child, it becomes extremely difficult to transport patient to the city. The HOPE hospital provides secondary care comprehensive facilities for patient including a blood bank. Around 2500 deliveries are conducted annually with 1200 Gynecological surgical procedures. Around 2 to 3000 surgical procedures are conducted annually. A neonatal ICU provides neonatal care.",
+              "In 2023, a total of 90,080 patients were seen at HOPE Gurumandir Hospital.  These included: 54,000 outpatient cases, 14,400 ultrasounds, 12,600 labs, 3,600 inpatient cases, 3,600 emergency cases, 1,800 surgeries, and 1,080 normal births.",
             features: [
-              "24 hour Emergency",
-              "Maternity Services",
-              "Normal Delivery",
-              "Caesarian Sections",
-              "Gynecological Surgeries",
-              "Fully Equipped Operation Theatre",
-              "Labor Room",
-              "General Surgeries",
-              "X-Ray",
-              "Blood Bank",
+              "Prenatal and maternal care",
+              "Incubator and neonatal care",
+              "Diagnostic services (ultrasound, labs, etc.)",
+              "General surgeries",
               "Laboratory",
-              "ECG",
-              "Ultra Sound",
-              "Medical Store",
+              "Gynecologist",
+              "Pediatrician",
+              "General outpatient services",
             ],
-            img: karachihospital,
+            img: gurumandirHospital,
           },
         },
         {
-          logo: maternalchildcenter,
+          logo: ziaHospital,
           description:
-            "Maternal and Child health Centers have been established in Manzoor Colony, Mujahid Colony and Bilal Colony where ante – natal care is provided to mothers.",
-          name: "Maternal Child Center",
-          link: "maternal-child-center",
+            "HOPE’s Hospital in Zia Colony was built in 2002 and services Korangi district, a region in Karachi with a population of 70,000 people.",
+          name: "HOPE Hospital Zia Colony",
+          link: "hope-hospital-zia-colony",
           blog: {
-            heading: "Maternal Child Center",
+            heading: "HOPE Hospital Zia Colony",
             para1:
-              "Maternal mortality is significantly high in Pakistan. This is chiefly due to pregnancy related complications such as threatened abortion, ante-partum hemorrhage, pre eclampsia, etc. Mothers generally do not go for ante – natal care and most deliveries are conducted at home.",
+              "HOPE’s Hospital in Zia Colony was built in 2002 and services Korangi district, a region in Karachi with a population of 70,000 people.  It is a 50 bedded hospital and the patients are mainly women or children, and many times victims of industrial or traffic accidents.  HOPE’s Hospital in Zia Colony is the only facility in the area which treats obstetric complication and emergencies.  Services provided include:",
             para2:
-              "Maternal and Child health Centers have been established in Manzoor Colony, Mujahid Colony and Bilal Colony where ante – natal care is provided to mothers. High-risk pregnancies are identified. Anemia is treated, nutrition advice is given and fetal monitoring is carried out. For this purpose a liaison has been established with the TBA’s in the area. Simple deliveries are conducted in the MCH Centre. In case of complications, the MCH Staff immediately takes the patient to a Tertiary Care Hospital. In case of threatened abortions, D & C is performed under hygienic conditions. Family Planning is an important activity. This includes motivation for FP, provision of FP products as well as insertion of IUCDs. Community – based FP services provide a wide – base for FP services and is very successful. Women feel free to come and discuss FP related issues. There is active support from the male group. Preventive and curative health services are provided to children. This includes free immunization services in the MCH Centers and outreach mobile teams for immunization. Nutrition advice is given to mothers including promotion of breastfeeding as well as weaning diets. Growth monitoring of children is done. ORS packets are provided to children with diarrhea. In addition, minor ailments like cough, fever, etc. are treated. Hence, both curative and preventive health services are provided for mothers and children.",
-            img: maternalchildcenter,
-          },
-        },
-        {
-          logo: medicalcenterhub,
-          description:
-            "HOPE, in collaboration with Asia Petroleum, started a Basic Health Unit in the HUB area in August 2010. The Health Center is located in a poor area.",
-          name: "Medical Center Hub",
-          link: "medical-center-hub",
-          blog: {
-            heading: "Basic Health Unit in Hub",
-            para1:
-              "HOPE, in collaboration with Asia Petroleum, started a Basic Health Unit in the HUB area in August 2010. The Health Center is located in a poor area. Majority of people live without electricity, poor hygiene and sanitation facilities and limited clean water. Diseases are common in this area and health facilities are situated far away. HOPE aims to provide much needed basic health care to thousands of residents annually through this BHU.",
-            para2:
-              "This BHU is providing outpatient services, maternal check ups, childcare, ultrasound facilities, etc. to the local residents who have limited access to proper medical facilities. Emergency services including oxygen therapy, nebulization, IV drips are also provided. Medicines are given free of cost. In the past six months, the BHU has treated almost 9,000 patients for various illnesses. The most common ailments found are gastroenteritis, diarrhea, skin infections, viral diseases, respiratory infections, and malaria.",
-            img: medicalcenterhub,
-          },
-        },
-        {
-          logo: medicalcentersujawal,
-          description:
-            "By opening a Basic Health Unit (BHU) in Sujawal, a village located in interior Sindh, HOPE is once again fulfilling its motto of “reaching out where no one reaches”. This BHU was set up with the generous support of the Citibank.",
-          name: "Medical Center Sujawal",
-          link: "medical-center-sujawal",
-          blog: {
-            heading: "Basic Health Unit in Sujawal",
-            para1:
-              "By opening a Basic Health Unit (BHU) in Sujawal, a village located in interior Sindh, HOPE is once again fulfilling its motto of “reaching out where no one reaches”. This BHU was set up with the generous support of the Citibank.",
-            para2:
-              "Through this BHU at Sujawal, HOPE is providing quality healthcare free of cost to thousands of poverty-stricken Pakistanis. This BHU is especially instrumental in bringing healthcare to those affected by the 2010 and 2011 floodings. The BHU includes the following facilities:",
+              "In 2023, HOPE’s Zia Colony Hospital treated a total of 187,200 cases.  These included: 108,000 outpatient cases, 21,600 X-rays, 18,000 ultrasounds, 18,000 labs, 9,000 inpatient cases, 7,200 emergencies, 3,600 surgeries, and 1,800 normal births.",
             features: [
-              "Operation Theater",
-              "Emergency room",
-              "Blood Bank",
-              "24 hour Emergency",
-              "Out-patient care",
-              "Ultrasound room",
-              "OPD",
-              "Laboratory",
-              "Labor Room",
+              "Outpatient procedures",
+              "Gynecologist",
+              "24/7 emergency services",
+              "Orthopedics",
+              "Vaccinations",
+              "Normal deliveries",
+              "Surgeries",
+              "Neonatal facilities",
+              "Prenatal and maternal services",
+              "Diagnostic services (ultrasound, labs, etc.)",
             ],
-            img: medicalcentersujawal,
+            img: ziaHospital,
           },
         },
         {
-          logo: mobilehealthunit,
+          logo: thattaHospital,
           description:
-            "To cater the much needed health care facilities in the underprivileged areas of Karachi, HOPE organizes a weekly mobile medical camp that covers as many as 26 Goths on a rotational basis.",
-          name: "Mobile Health Unit (MHU)",
-          link: "mobile-health-unit-mhu",
+            "HOPE’s Hospital in Thatta was established in 2006 through funding from the Japan Embassy.",
+          name: "HOPE Hospital Thatta",
+          link: "hope-hospital-thatta",
           blog: {
-            heading: "Mobile Health Unit (MHU)",
+            heading: "HOPE Hospital Thatta",
             para1:
-              "To cater the much needed health care facilities in the underprivileged areas of Karachi, HOPE organizes a weekly mobile medical camp that covers as many as 26 Goths on a rotational basis. HOPE has been able to carry out this project with the help of generous support from ASIA Petroleum. The area that HOPE’s medical team covers is quite vast ~ from Pipri in the south east of Karachi to the North West touching the borders of Baluchistan at Hub.",
+              "HOPE’s Hospital in Thatta was established in 2006 through funding from the Japan Embassy.  It services the district of Thatta, which is located 62 miles from Karachi and has a population of one million people.  Thatta is the largest district in the state of Sindh, but its impoverished constituents suffer from many diseases due to the lack of health facilities.  HOPE is the second charitable hospital serving Thatta.  In 2023, 213,480 patients were treated at this 50 bedded facility.  Services include:",
+            para2:
+              "In 2023, 213,480 patients were treated at HOPE’s Hospital in Thatta.  These included: 115,200 outpatient cases, 21,600 labs, 21,600 ultrasounds, 19,800 X-rays, 18,000 emergencies, 10,200 inpatient cases, 4,320 surgeries, and 2,160 normal births.  In 2020, HOPE Hospital was declared as a quarantine facility for Covid-19 patients. by the Pakistan army.",
             features: [
-              "On each visit as many as 60 individual patients consisting of men, women and children are examined.",
-              "Annually approximately 24,000 patients are seen.",
-              "Proper medical attention inclusive of free medicines is provided.",
-              "The common ailments normally seen and diagnosed are diarrhea, respiratory tract infections, gastroenteritis, vomiting and malnutrition.",
-              "Follow ups of serious cases is separately maintained and taken care of.",
+              "Outpatient procedures",
+              "Gynecologist",
+              "Orthopedic services",
+              "Vaccinations",
+              "Prenatal and maternal services",
+              "Neonatal care facilities",
+              "Diagnostic services (ultrasound, labs, etc.)",
             ],
-            img: mobilehealthunit,
+            img: thattaHospital,
           },
         },
         {
-          logo: nutrition2007,
+          logo: sujawalHospital,
           description:
-            "In Pakistan nearly 40% of children and women are malnourished. HOPE, through its network is working on various aspects of nutrition. This includes growth monitoring through the HOPE clinics, dietary management, trials with local nutritious diet, etc.",
-          name: "Nutrition 2007",
-          link: "nutrition-2007",
+            "Sujawal is a densely populated area about 80 miles from Karachi and 16 miles from Thatta.",
+          name: "HOPE Hospital Sujawal",
+          link: "hope-hospital-sujawal",
           blog: {
-            heading: "Nutrition 2007",
+            heading: "HOPE Hospital Sujawal",
             para1:
-              "In Pakistan nearly 40% of children and women are malnourished. HOPE, through its network is working on various aspects of nutrition. This includes growth monitoring through the HOPE clinics, dietary management, trials with local nutritious diet, etc.",
+              "Sujawal is a densely populated area about 80 miles from Karachi and 16 miles from Thatta.  Its 800,000 constituents live in dire poverty conditions and health facilities in the area are nonexistent.  HOPE’s Hospital in Sujawal began humbly as a basic health unit sponsored generously by Citibank.  It is now a 15 bedded secondary care hospital which serviced 60,480 patients in 2023.  HOPE’s hospital in Sujawal receives emergency cases that have been rerouted from other basic health units in the area.  Services include:",
             para2:
-              "Promotion of exclusive breast-feeding is an important activity. Weaning is advocated using nutritious weaning foods. Mothers are provided information on types of diet to use. Maternal nutrition is given special importance. An ongoing survey of maternal nutrition and associated risk factors is being conducted. Health workers in their house-to-house visits give nutrition counseling for mothers and children. Weekly assessments are done. Group discussions are held with mothers. Cost-effective alternate food sources are encouraged. Trainings on nutrition are held for community workers and other health care providers including doctors.",
-            img: nutrition2007,
+              "In 2023, 60,480 patients were seen at HOPE’s Hospital in Sujawal.  These included: 43,200 outpatient cases, 5,400 ultrasounds, 3,600 labs, 2,520 inpatient cases, 1,800 X-rays, 1,800 normal births, 1,080 emergency cases, and 1,080 surgeries.",
+            features: [
+              "Prenatal and maternal services",
+              "Outpatient procedures",
+              "24/7 emergency unit",
+              "Gynecologist",
+              "Diagnostic services (laboratory)",
+              "General surgeries",
+            ],
+            img: sujawalHospital,
           },
         },
         {
-          logo: nutrition2010,
+          logo: maternalManzoor,
           description:
-            "HOPE began a nutrition support programme with UNICEF in October 2010 as part of its flood relief campaign. The project has now been extended for a year. This nutrition project targets the under-privileged population in Karachi, Thatta, Dadu and Shahdad Kot.",
-          name: "Nutrition 2010 - 2011",
-          link: "nutrition-2010-2011",
+            "HOPE’s oldest Maternal and Child Health Center is Manzoor Colony and was established in 2000 through funding from the Japan Embassy",
+          name: "HOPE Maternal and Child Center Manzoor Colony",
+          link: "maternal-center-manzoor-colony",
           blog: {
-            heading: "Nutrition 2010 - 2011",
+            heading: "HOPE Maternal and Child Center Manzoor Colony",
             para1:
-              "HOPE began a nutrition support programme with UNICEF in October 2010 as part of its flood relief campaign. The project has now been extended for a year. This nutrition project targets the under-privileged population in Karachi, Thatta, Dadu and Shahdad Kot.",
+              "HOPE’s oldest Maternal and Child Health Center is Manzoor Colony and was established in 2000 through funding from the Japan Embassy. It is open part-time and deliveries are referred to HOPE’s Hospital in Zia Colony.  Services include:",
             para2:
-              "HOPE is providing food supplements including Fortified Blended Wheat and oil as Supplementary feeding program (SFP) for malnourished pregnant and lactating mothers (PLWs), supplementary plumpy nuts for moderately malnourished children under five at SFP and Ready to Use Therapeutic food to the severely malnourished children under five at Out Patient therapeutic program (OTP). This intervention also aims at treating complicated malnourished children at a Stabilization Center (SC) established by HOPE at Civil Hospital in Thatta and Dadu. To date (March 2011), HOPE has screened a total of 36,566 children under 5 have been screened. From this, 8,444 have been enrolled in the SFP Programme, 2,137 in OTP and 181 have been enrolled into Stabilization Centers. Moreover, 13,209 PLW’s have been screened, from which 6,046 have been enrolled in SFP.",
-            img: nutrition2010,
+              "In 2023, 16,848 patients were seen at Manzoor Colony.  These included: 6,240 mothers, 8,112 children, 1,560 ultrasounds, 936 IV drips.",
+            features: [
+              "General prenatal and obstetric care",
+              "Ultrasounds",
+              "IV drips for dehydration",
+            ],
+            img: maternalManzoor,
           },
         },
         {
-          logo: purifier,
+          logo: maternalMujahhid,
           description:
-            "HOPE has signed a distributorship agreement with Procter & Gamble Company (P&G) for the latter’s PuR brand of water purification system.",
-          name: "P&G Purifier of Water Distribution",
-          link: "pg-purifier-of-water-distribution",
+            "Mujahid Colony is a downtrodden neighborhood in the outskirts of Karachi with a population of 40,000 people.",
+          name: "HOPE Maternal and Child Center Mujahhid Colony",
+          link: "maternal-center-mujahhid-colony",
           blog: {
-            heading: "P&G Purifier of Water Distribution",
+            heading: "HOPE Maternal and Child Center Mujahhid Colony",
             para1:
-              "HOPE has signed a distributorship agreement with Procter & Gamble Company (P&G) for the latter’s PuR brand of water purification system. Though, the product name has been changed from PuR to P&G Purifier of Water now but its function remains the same. The product is backed by P&G’s unmatched assets of extensive research, development and market goodwill, corresponded by HOPE’s wide-ranging field experience in coordinating disaster relief in Pakistan.",
+              "Mujahid Colony is a downtrodden neighborhood in the outskirts of Karachi with a population of 40,000 people. HOPE’s Maternal and Child Health Center in Mujahid Colony was established in 2003 and has received funding form the Consulate of Germany.  It is also open-part time, but has the capacity to conduct deliveries. Services include:",
             para2:
-              "HOPE is exclusively responsible for distributing P&G Purifier of Water across Pakistan to NGO’s, donors, etc. In addition, HOPE will provide back-up support in the form of training, IEC material and advocacy of P&G Purifier of Water. Social marketing for P&G Purifier of Water will also be done. P&G Purifier of Water is extensively used for providing safe drinking water to affected people in disaster zones. It is distributed in 4gram sachets–ample for purifying up to 10 liters of brackish water. Compared with other products available in the market, P&G Purifier of Water has the advantage of leaving no salty or sour after-taste.",
-            img: purifier,
+              "In 2023, 18,804 patients were seen at HOPE’s Maternal and Child Health Center in Mujahid Colony.  These included: 9,360 children, 7,176 mothers, 1,248 ultrasounds, 936 IV drips, and 84 normal births.",
+            features: [
+              "Prenatal and maternal services",
+              "Ultrasounds",
+              "Normal deliveries",
+              "IV drips for dehydration",
+            ],
+            img: maternalMujahhid,
+          },
+        },
+        {
+          logo: maternalBilal,
+          description:
+            "HOPE’s third Maternal and Child Health Center opened in March 2017 and is funded by a private family.",
+          name: "HOPE Maternal and Child Center Bilal Colony",
+          link: "maternal-center-bilal-colony",
+          blog: {
+            heading: "HOPE Maternal and Child Center Bilal Colony",
+            para1:
+              "HOPE’s third Maternal and Child Health Center opened in March 2017 and is funded by a private family.  Bilal Colony has a population of 80,000 but medical facilities in the area are inadequate.  HOPE’s Maternal and Child Health Center provides a critical service to the previously underserved community.  Services include:",
+            para2:
+              "In 2023, 20,280 patients were treated at HOPE’s Maternal and Child Health Center in Bilal Colony.  These include: 9,360 mothers, 6,864 children, 2,184 ultrasounds, 1,872 IV drips.",
+            features: [
+              "Maternal and prenatal care",
+              "Pediatric care",
+              "Pharmacy providing medicines free of charge",
+              "IV drips for dehydration",
+              "Diagnostic services (ultrasounds, labs, etc.)",
+              "Infertility treatments",
+              "Breastfeeding consultants",
+              "Family planning services",
+              "Awareness programs for diseases such as hepatitis, hypertension, diabetes",
+            ],
+            img: maternalBilal,
+          },
+        },
+        {
+          logo: maternalKorangi,
+          description:
+            "HOPE's debuted its maternal and child center (MCHC) in Korangi 5 in March 2021.",
+          name: "HOPE Maternal and Child Center Korangi 5",
+          link: "maternal-center-korangi",
+          blog: {
+            heading: "HOPE Maternal and Child Center Korangi 5",
+            para1:
+              "HOPE's debuted its maternal and child center (MCHC) in Korangi 5 in March 2021.  This center is also funded by a private family.  We expect to see over 27,000 zakat-eligible mothers and children per year. Services include:",
+            features: [
+              "Prenatal and maternal services",
+              "Outpatient procedures",
+              "24/7 emergency unit",
+              "Gynecologist",
+              "Diagnostic services (laboratory)",
+              "General surgeries",
+            ],
+            img: maternalKorangi,
+          },
+        },
+        {
+          logo: maternalZia,
+          description:
+            "HOPE’s operates a Maternal and Child Health Center in Zia Colony which is generously sponsored by a private family.",
+          name: "HOPE Maternal and Child Center Zia Colony",
+          link: "maternal-center-zia-colony",
+          blog: {
+            heading: "HOPE Maternal and Child Center Zia Colony",
+            para1:
+              "HOPE’s operates a Maternal and Child Health Center in Zia Colony which is generously sponsored by a private family.  It is open part-time and deliveries are referred to HOPE’s Hospital in Zia Colony.  This MCHC treats over 20,000 women and children annually.  Services include:",
+            features: [
+              "General prenatal and obstetric care",
+              "Ultrasounds",
+              "IV drips for dehydration",
+            ],
+            img: maternalZia,
+          },
+        },
+        {
+          logo: maternalLangarpura,
+          description:
+            "HOPE’s Maternal and Child Health Center opened in September 2021 and is funded by HOPE USA donors and our nonprofit partner, Darul Sadaqa 786.",
+          name: "HOPE Maternal and Child Center, Langarpura Azad Kashmir",
+          link: "maternal-center-langarpura",
+          blog: {
+            heading: "HOPE Maternal and Child Center, Langarpura Azad Kashmir",
+            para1:
+              "HOPE’s Maternal and Child Health Center opened in September 2021 and is funded by HOPE USA donors and our nonprofit partner, Darul Sadaqa 786.  In April 2023, an anonymous donor funded an entire upper floor for this facility, thus equipping it to handle normal and cesarean births.  In 2024, Yusuf Foundation generously pledged extended hours for this facility and in 2025 we are aiming for 24/7 services.",
+            para3:
+              "Prior to the construction of this MCHC, the surrounding community did not have access to adequate healthcare facilities.  This Maternal and Child Health Center provides 20,000 women and children per year with the following services for free/nominal cost:",
+            features: [
+              "Maternal and prenatal care",
+              "Normal and cesarean births",
+              "Pediatric care",
+              "Pharmacy providing medicines free of charge",
+              "IV drips for dehydration",
+              "Diagnostic services (ultrasounds, labs, etc.)",
+              "Infertility treatments",
+              "Breastfeeding consultants",
+              "Family planning services",
+              "Awareness programs for diseases such as hepatitis, hypertension, diabetes",
+            ],
+            img: maternalLangarpura,
+          },
+        },
+        {
+          logo: maternalChikaar,
+          description:
+            "HOPE’s Maternal and Child Health Center facility opened in December 2021.",
+          name: "HOPE Maternal and Child Center Chikaar, Azad Kashmir",
+          link: "maternal-center-chikaar",
+          blog: {
+            heading: "HOPE Maternal and Child Center Chikaar, Azad Kashmir",
+            para1:
+              "HOPE’s Maternal and Child Health Center facility opened in December 2021.  It was donated by private donors and renovated to treat the needs of the surrounding community.  This MCHC is approximately 1.5 hours away from the Azad Kashmir MCHC and caters to a different community.  Approximately 15,000 women and children are provided free/nominal cost healthcare per year.  This center provides the following services:",
+            features: [
+              "Maternal and prenatal care",
+              "Pediatric care",
+              "Pharmacy providing medicines free of charge",
+              "IV drips for dehydration",
+              "Diagnostic services (ultrasounds, labs, etc.)",
+              "Infertility treatments",
+              "Breastfeeding consultants",
+              "Family planning services",
+              "Awareness programs for diseases such as hepatitis, hypertension, diabetes",
+            ],
+            img: maternalChikaar,
+          },
+        },
+        {
+          logo: maternalKpk,
+          description:
+            "In April 2023 (Ramadan), HOPE USA debuted a Maternal and Child Health Center in Garhi Habibullah, Khyber Pakhtukhwa.",
+          name: "HOPE Maternal and Child Center Garhi Habibullah, KPK",
+          link: "maternal-center-kpk",
+          blog: {
+            heading: "HOPE Maternal and Child Center Garhi Habibullah, KPK",
+            para1:
+              "In April 2023 (Ramadan), HOPE USA debuted a Maternal and Child Health Center in Garhi Habibullah, Khyber Pakhtukhwa.  This MCHC is our first facility of any kind in KPK and was sponsored by Yusuf Foundation.  Approximately 30,000 women and children are provided free/nominal cost healthcare per year.  In 2024, Yusuf Foundation generously pledged to extend the hours of this facility with 24/7 service expected in 2025.  This center provides the following services:",
+            features: [
+              "Maternal and prenatal care",
+              "Normal and cesarean births",
+              "Pediatric care",
+              "Pharmacy providing medicines free of charge",
+              "IV drips for dehydration",
+              "Diagnostic services (ultrasounds, labs, etc.)",
+              "Infertility treatments",
+              "Breastfeeding consultants",
+              "Family planning services",
+              "Awareness programs for diseases such as hepatitis, hypertension, diabetes",
+            ],
+            img: maternalKpk,
+          },
+        },
+        {
+          logo: maternalMansehra,
+          description:
+            "In September 2023, HOPE USA launched a Maternal and Child Health Center to serve rural villagers in Mansehra, Khyber Pakhtukhwa.",
+          name: "HOPE Maternal and Child Center Mansehra, KPK",
+          link: "maternal-center-mansehra",
+          blog: {
+            heading: "HOPE Maternal and Child Center Mansehra, KPK",
+            para1:
+              "In September 2023, HOPE USA launched a Maternal and Child Health Center to serve rural villagers in Mansehra, Khyber Pakhtukhwa.  This facility is sponsored through the generosity of Yusuf Foundation.  Approximately 30,000 women and children are provided free/nominal cost healthcare per year.  In 2024, Yusuf Foundation generously pledged to expand operational capacity of this facility with 24/7 services beginning in 2025.  This center provides the following services:",
+            features: [
+              "Maternal and prenatal care",
+              "Normal and cesarean births",
+              "Pediatric care",
+              "Pharmacy providing medicines free of charge",
+              "IV drips for dehydration",
+              "Diagnostic services (ultrasounds, labs, etc.)",
+              "Infertility treatments",
+              "Breastfeeding consultants",
+              "Family planning services",
+              "Awareness programs for diseases such as hepatitis, hypertension, diabetes",
+            ],
+            img: maternalMansehra,
+          },
+        },
+        {
+          logo: healthUnit,
+          description:
+            "In August 2010, HOPE started a Basic Health Unit (BHU) in Hub, Balochistan with the collaboration and support of Asia Petroleum.",
+          name: "HOPE's Basic Health Unit in Pakistan",
+          link: "health-unit",
+          blog: {
+            heading: "HOPE's Basic Health Unit in Pakistan",
+            para1:
+              "In August 2010, HOPE started a Basic Health Unit (BHU) in Hub, Balochistan with the collaboration and support of Asia Petroleum.  The population in this area is largely underserved and lives without electricity, access to clean water, and sanitation facilities.  In 2023, HOPE served over 12,000 patients at this facility. Our BHU fills in the medical needs of this community by providing the following services:",
+            features: [
+              "Outpatient services",
+              "Maternal check ups",
+              "Child care",
+              "Ultrasound facilities",
+            ],
+            img: healthUnit,
+          },
+        },
+        {
+          logo: healthUnitMobile,
+          description:
+            "In 2010, HOPE inaugurated its first Mobile Health Unit in HUB, Balochistan with the cooperation of Asia Petroleum Limited.",
+          name: "HOPE's Two Mobile Health Units",
+          link: "health-unit-mobile",
+          blog: {
+            heading: "HOPE's Two Mobile Health Units",
+            para1:
+              "In 2010, HOPE inaugurated its first Mobile Health Unit in HUB, Balochistan with the cooperation of Asia Petroleum Limited.  Due to the successful effort, another unit was set up in Sindh in 2011.  Each Mobile Health Unit is responsible for covering the same 30 villages every week.  Doctors from Karachi staff these Mobile Health on a rotational basis.  The doctors set up “clinics” in the houses of community volunteers and treat the underserved population, mainly women and children.  Medicines and treatments are provided free of charge.",
+            para3:
+              "HOPE’s Mobile Health Unit vehicles are equipped with trackers, courtesy of APL.  These units allow HOPE to keep track of what areas have been serviced and improve efficiency.  Other services provided by the Mobile Health Units include:",
+            para2:
+              "In 2023, a total of 72,384 patients were treated in both of HOPE’s Mobile Health Clinics.  These included: 39,936 children, 17,472 men, and 14,976 women.",
+            features: [
+              "Treating communicable diseases such as diarrhea, respiratory infections, vomiting, and noncommunicable diseases such as malnutrition",
+              "Basic medical services",
+              "Gynecologic and obstetric care",
+            ],
+            img: healthUnitMobile,
           },
         },
       ],
     },
   },
   {
-    logo: education,
-    name: "Hope Education",
+    logo: educationMain,
+    name: "Education",
+    description: "Empowering Girls",
     link: "education",
     subpage: {
       heading: "Education",
       loop: [
         {
-          logo: barclayschool,
+          logo: ziaschool,
           description:
-            "Barclays Bank has collaborated with HOPE to open 100 Home Schools. These schools are located all over Pakistan, including the slum areas of Karachi, rural Thatta, Ghagger, Dadu, AJK as well as NWFP.",
-          name: "Barclays - Hope Home Schools",
-          link: "barclays-hope-home-schools",
+            "HOPE’s formal school in Zia Colony began humbly with only 60 students studying up to fifth grade.",
+          name: "HOPE Formal School Zia Colony",
+          link: "zia-colony-school",
           blog: {
-            heading: "Barclays - Hope Home Schools",
+            heading: "HOPE Formal School Zia Colony",
             para1:
-              "Barclays Bank has collaborated with HOPE to open 100 Home Schools. These schools are located all over Pakistan, including the slum areas of Karachi, rural Thatta, Ghagger, Dadu, AJK as well as NWFP. Many of these schools are located in remote and mountainous areas that have no other educational facilities nearby. Nearly, 7000 children will receive education through the HOPE Barclays Home Schools.",
-            img: barclayschool,
+              "HOPE’s formal school in Zia Colony began humbly with only 60 students studying up to fifth grade.  Classes were held in four classrooms adjacent to the HOPE Zia Colony Hospital.  In 2002, the Embassy of Japan generously sponsored construction of a new school building which supported students up to high school levels.  Today, 800 students are enrolled in HOPE’s Zia Colony school.  Most of these students come from extremely poor backgrounds; tuition and books are free of charge, or a nominal amount is taken from those who can afford it.  The curriculum at Zia Colony is well-rounded and students participate in sports, art competitions, and field trips. Students are passing their high school board exams with flying colors.",
+            img: ziaschool,
           },
         },
+
         {
-          logo: education,
+          logo: muzaffargarhSchool,
           description:
-            "HOPE is running 25 home schools in the three Talukas- Johi, Maher and K N Shah of Dadu.",
-          name: "Dadu Home Schools",
+            "HOPE’s formal school in Muzaffargarh caters to a rural population about 25 miles from Multan City.",
+          name: "HOPE Formal School Muzaffargarh [Punjab]",
+          link: "muzaffargarh-school",
+          blog: {
+            heading: "HOPE Formal School Muzaffargarh [Punjab]",
+            para1:
+              "HOPE’s formal school in Muzaffargarh caters to a rural population about 25 miles from Multan City.  HOPE established a school here in 2011 because there were few educational facilities in the area.  There is a ratio of 70/30 ratio of girls to boys in this school; the students are children of farmers and laborers and come from extreme poverty.  Many students are orphans.  Today, there are 600 students and classes are held until eighth grade.  A well-rounded curriculum is in place which includes extracurricular activities and outdoor sports.",
+            para2:
+              "For years, HOPE’s formal school in Muzaffargarh was operating in a rented building; in 2018, the Japan Embassy sponsored construction of a new school which is currently underway.",
+            img: muzaffargarhSchool,
+          },
         },
+
         {
-          logo: vocational,
+          logo: thattaSchool,
           description:
-            "In 2010, HOPE partnered with HSBC Bank to set up 40 home schools in AJK, Punjab, and Sindh. Twenty new home schools were opened– ten in Muzzafargarh, and ten in AJK.",
-          name: "HSBC Home Schools",
+            "HOPE’s Formal School in Thatta had a humble beginning adjacent to the HOPE hospital ",
+          name: "HOPE Formal School Thatta",
+          link: "thatta-school",
+          blog: {
+            heading: "HOPE Formal School Thatta",
+            para1:
+              "HOPE’s Formal School in Thatta had a humble beginning adjacent to the HOPE hospital (similar to the formal school in Zia Colony).  Initially, there were only 60 students in four classrooms up till fifth grade and a limited number of teachers.  In 2006, three individual philanthropists pooled together to support construction of a large school building.  Today, HOPE’s Formal School in Thatta supports 600 students until high school.  Most of the students come from impoverished backgrounds and are the children of farmers and laborers.",
+            img: thattaSchool,
+          },
         },
+
         {
-          logo: women,
+          logo: kashmirSchool,
           description:
-            "To fight illiteracy, HOPE runs Home Schools nationwide. These schools run in the homes of the community girls. The neighborhood children attend the school.",
-          name: "Informal Schools",
-        },
-        {
-          logo: emergency,
-          description:
-            "In April 2011, HOPE opened a small school in the impoverished area of Muzzafargarh, Punjab. Sponsored by HOPE USA and HSBC Bank.",
-          name: "Muzzafargarh Punjab School",
-        },
-        {
-          logo: development,
-          description:
-            "HOPE is running Home Schools in different areas of AJK and NWFP. These schools are located in the remote mountain areas, some which are highly inaccessible by road.",
-          name: "Northern Pakistan Home Schools",
-        },
-        {
-          logo: development,
-          description:
-            "Procter & Gamble through its Global “Live, Learn & Thrive” Programme is supporting 60 Home Schools for the past 3 years. These schools are located in the slum areas of Karachi and rural Sindh.",
-          name: "P&G – Hope Home Schools",
+            "HOPE has 40 registered home schools which cater to a remote population living in the mountainous area of Azad Kashmir.",
+          name: "40 Home Schools in Azad Kashmir",
+          link: "kashmir-school",
+          blog: {
+            heading: "40 Home Schools in Azad Kashmir",
+            para1:
+              "HOPE has 40 registered home schools which cater to a remote population living in the mountainous area of Azad Kashmir.  Presently, HOPE’s home schools are the only functioning schools in this area which is approximately three hours from the capital city of Muzaffarabad.  Currently, 2,000 students are enrolled, 80 percent of whom are girls.  Classes are offered until eight grade, and in some areas until high school.",
+            para2:
+              "Home schooling is a highly effective method of education which has not reached its potential in Pakistan’s rural and remote regions.  In the winter, many areas in Azad Kashmir are cut off to transportation due to treacherous roads.  Constructing physical school buildings is impractical in these areas.  Furthermore, many girls are adversely affected by sociocultural barriers to education as compared to urban areas.  Home schooling is a flexible and cost-effective solution which addresses all of these issues.",
+            img: kashmirSchool,
+          },
         },
       ],
     },
   },
   {
-    logo: vocational,
-    description: "Lorem ipsum is description.",
-    name: "Vocational Services",
-    link: "services",
+    logo: vocationalMain,
+    name: "Vocational Training",
+    description: "Solutions to Poverty",
+    link: "vocational_training",
     subpage: {
-      heading: "Vocational Centers",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum aut labore",
+      heading: "Vocational Training",
       loop: [
         {
-          logo: health,
+          logo: vocationalZia,
           description:
-            "HOPE has set up Vocational Centers in different areas that provide learning opportunities for young girls and boys",
-          name: "HOPE Vocational Centers",
-          link: "vocational-centers",
+            "Zia Colony (Karachi) – Zia Colony’s vocational center was established in 2011.  Young women and girls are taught computer skills or textile design",
+          name: "HOPE Vocational Center Zia Colony",
+          link: "vocational-center-zia-colony",
           blog: {
-            heading: "HOPE Vocational Centers",
+            heading: "HOPE Vocational Center Zia Colony",
             para1:
-              "HOPE has set up Vocational Centers in different areas that provide learning opportunities for young girls and boys. These centers are located in Karachi – Manzoor Colony, Bilal Colony, Zia Colony, Thatta, Mazaffargarh and Muzaffarabad (AJK). Sewing, cutting and embroidery classes are held for young girls. Computer classes provide software and hardware training for both boys and girls. Internet facilities are also provided. In addition, English language classes are also held for youth. These centers help in providing income generation activities.",
-            para2: "",
-            features: [],
-            img: ach,
+              "Zia Colony (Karachi) – Zia Colony’s vocational center was established in 2011.  Young women and girls are taught computer skills or textile design.  As of 2022, a total of 1,200 students have been served by this center.",
+            img: vocationalZia,
+          },
+        },
+
+        {
+          logo: vocationalBilal,
+          description:
+            "Bilal Colony is HOPE’s newest vocational center and was built in 2017 with generous funding from IDRF Canada.",
+          name: "HOPE Vocational Center Bilal Colony",
+          link: "vocational-center-bilal-colony",
+          blog: {
+            heading: "HOPE Vocational Center Bilal Colony",
+            para1:
+              "Bilal Colony is HOPE’s newest vocational center and was built in 2017 with generous funding from IDRF Canada.  Computer and English language skills are taught at this facility. Since 2022, 2,000 students have received training at Bilal Colony Vocational Center.",
+            img: vocationalBilal,
+          },
+        },
+
+        {
+          logo: vocationalThatta,
+          description:
+            "Rural Thatta is located approximately 62 miles from Karachi and has a population of 225,000.",
+          name: "HOPE Vocational Center Thatta",
+          link: "vocational-center-thatta",
+          blog: {
+            heading: "HOPE Vocational Center Thatta",
+            para1:
+              "Rural Thatta is located approximately 62 miles from Karachi and has a population of 225,000.  HOPE has a strong presence in Thatta via the establishment of a hospital (213,000 patients treated in 2017), community center, formal school (340 students), informal schools, and a vocational center.",
+            para3:
+              "HOPE’s vocational center in Thatta was established in 2011. It features computer classes and textile design courses. Since 2022, 4,000 students have received training at this location.",
+            img: vocationalThatta,
+          },
+        },
+        {
+          logo: vocationalBadin,
+          description:
+            "Khowra Chowk (Badin) is an agricultural district approximately 112 miles from Karachi.",
+          name: "HOPE Vocational Center Badin",
+          link: "vocational-center-badin",
+          blog: {
+            heading: "HOPE Vocational Center Badin",
+            para1:
+              "Khowra Chowk (Badin) is an agricultural district approximately 112 miles from Karachi. This community is still recovering from the widespread devastation caused by the 2011 monsoon season. HOPE has provided emergency relief during several of the yearly Sindh floods to over 5,000 individuals and also has a presence in Khowra Chowk via informal schools and a vocational center.  As of 2022, the vocational center has served 1,000 students, 80 percent of whom are females.",
+            img: vocationalBadin,
           },
         },
       ],
     },
   },
   {
-    logo: women,
-    description: "Lorem ipsum is description.",
-    name: "Hope Women",
-    link: "women",
+    logo: aquaMain,
+    name: "Aqua Project",
+    description: "Hand Pumps and Clean Water",
+    link: "aqua_project",
+    subpage: {
+      heading: "Aqua Project",
+      loop: [
+        {
+          logo: aquaDetails,
+          description:
+            "Access to clean water is essential for every human being's health.  Unfortunately many of Pakistan's underprivileged communities suffer from water borne diseases such as typhoid, E. Coli infections, and cholera due to the lack of access to clean water.",
+          name: "Fulfilling a Basic Need",
+          link: "aqua_project-details",
+          blog: {
+            heading: "Fulfilling a Basic Need",
+            para1:
+              "Access to clean water is essential for every human being's health.  Unfortunately many of Pakistan's underprivileged communities suffer from water borne diseases such as typhoid, E. Coli infections, and cholera due to the lack of access to clean water.  Since 2009, HOPE has partnered with Proctor & Gamble to distribute PuR amongst rural and remote communities.  PuR is a small sachet produced by P&G which purifies polluted water by eliminating harmful elements from it.  Within the first year HOPE launched this campaign (from 2009 to 2010) we distributed 1.2 million sachets of PuR.  During the 2022 Pakistan Flood Crisis, 21 million liters of PuR were distributed in flood-ravaged communities.  In our outreach efforts, we teach the importance of consuming clean water along with disease prevention by handwashing and soap.",
+            para3:
+              "Hand pumps are a wonderful way to create a Sadaqa Jaariyah (perpetual charity) for yourself, your family, and especially your loved ones who have passed away.  Not only do they allow impoverished villagers access to a clean water source, this effort in turn helps reduce the spread of waterborne illnesses such as diarrhea and gastroenteritis.  Constructing a hand pump therefore serves as a much-needed proactive healthcare measure for underserved communities. HOPE has approximately 140 hand pumps scattered throughout various poor localities and villages in Pakistan such as: Ghagger, Gharo, Khatore, Tharpakar, Sakhro, Badin, Karachi (Link Road), Muzaffargarh, Thatta, and Azad Kashmir, just to name a few.  Each hand pump provides a steady supply of clean water for 50 to 75 families (400 to 800 people).",
+            para2:
+              "Hand pumps are constructed on a first-come first-serve basis.  It can take anywhere from eight to ten months from the time you place your initial order to the time we can update you with pictures of your completed hand pump.  Constructing a hand pump is a complex process because several locations must be tested before our on-ground team can determine an ideal spot in which to excavate.",
+            img: aquaDetails,
+          },
+        },
+      ],
+    },
   },
   {
-    logo: emergency,
-    description: "Lorem ipsum is description.",
-    name: "Hope Emergencies",
-    link: "emergencies",
+    logo: foodMain,
+    name: "Food Security",
+    description: "Addressing Basic Needs",
+    link: "food_security",
+    subpage: {
+      heading: "Aqua Project",
+      loop: [
+        {
+          logo: tacklingFoodInsecurity,
+          description:
+            "Due to poverty rates of 25 to 40%, recurring natural disasters, and political and economic volatility, much of Pakistan's population struggles to meet basic needs such as food security.",
+          name: "Tackling Food Insecurity in Pakistan",
+          link: "tackling-food-insecurity",
+          blog: {
+            heading: "Tackling Food Insecurity in Pakistan",
+            para1:
+              "Due to poverty rates of 25 to 40%, recurring natural disasters, and political and economic volatility, much of Pakistan's population struggles to meet basic needs such as food security. This has resulted in 40 million people (out of 220 million total) who are not getting enough nutrients. In fact, Pakistan has twice the rate of malnourished people than other countries worldwide. Growth stunting due to malnourishment/undernourishment affects as many as 50% of Pakistan's children.",
+            para3:
+              "40% of children under the age of 5 in Pakistan are stunted according to the UN World Food Program, and of those, 11% are severely malnourished. Similarly, 20% of the general population faces hunger on a daily basis.",
+            para2:
+              "By tackling the crisis of food insecurity at a grassroots level, we are reducing malnourishment in the general population, and especially children, which will then lead to better health outcomes for the most vulnerable fragments of society in Pakistan.",
+            img: tacklingFoodInsecurity,
+          },
+        },
+        {
+          logo: monthlyFoodRations,
+          description:
+            "HOPE USA is attempting to tackle the problem of food insecurity in Pakistan head-on by delivering monthly food rations to families living below the poverty line in Pakistan.",
+          name: "Monthly Food Rations",
+          link: "monthly-food-rations",
+          blog: {
+            heading: "Monthly Food Rations",
+            para1:
+              "HOPE USA is attempting to tackle the problem of food insecurity in Pakistan head-on by delivering monthly food rations to families living below the poverty line in Pakistan.",
+            para3:
+              "Our Food Rations is one of our most cherished donor-initiated projects and was inspired by a supporter's concern for our beneficiaries living well below the poverty line in Pakistan.  For this ongoing project, we hand deliver a month's supply of food rations to as many families as we are able to help them fulfill their basic needs for nutrition.  This movement began as a humble gesture and has only amplified in reach, especially during times of high demand such as the Covid pandemic and the 2022 Pakistan Flood Crisis.",
+            para2:
+              "Our Food Rations consist of a month's supply of Rice, Wheat Flour (to make tortillas), Lentils, Cooking Oil, Milk Powder, Tea, Sugar, Salt, and Biscuits - enough for a family of 8.",
+            img: monthlyFoodRations,
+          },
+        },
+        {
+          logo: distributionOfFood,
+          description:
+            "In addition to distributing Food Rations, during various occasions throughout the year, our team reaches out to underserved communities by sharing cooked food.",
+          name: "Distribution of Food",
+          link: "distribution-of-food",
+          blog: {
+            heading: "Distribution of Food",
+            para1:
+              "In addition to distributing Food Rations, during various occasions throughout the year, our team reaches out to underserved communities by sharing cooked food (such as biryani, a South Asian rice and chicken dish).  Cooked food is distributed during times of emergency aid, school functions, and sometimes just to bring some joy to underserved areas.",
+            para3:
+              "During Ramadan, our distribution of both Food Rations and Door-to-Door Iftars increases, and we also commemorate communities coming together to enjoy a meal while they break fast.  Usually our functions are held on school campuses and we are humbled that many corporate supporters and organizations have stepped up to sponsor these events.  In addition to providing a nutritious meal, community iftars are a perfect way to help create and nurture bonds between students, community mentors, and human beings.",
+            para2:
+              "The Islamic holiday of Eid ul Adha provides us with an opportunity to distribute meat to underserved communities, all while commemorating the occasion.  For the vast majority of our beneficiaries, Eid ul Adha is the only time of year they are fortunate enough to enjoy meat, and we encourage our supporters to share Qurbani amongst the poor in underdeveloped neighborhoods throughout Pakistan.",
+            img: distributionOfFood,
+          },
+        },
+      ],
+    },
   },
   {
-    logo: development,
-    description: "Lorem ipsum is description.",
-    name: "Community Development",
-    link: "community",
+    logo: emergencyMain,
+    name: "Emergency Relief",
+    description: "Rebuilding after Natural Disasters",
+    link: "emergency_relief",
+    subpage: {
+      heading: "Emergency Relief",
+      loop: [
+        {
+          logo: PakistanFloods2022,
+          description:
+            "HOPE USA has been on the ground providing relief to flood victims since Day 1 of this Karachi Flooding Crisis.",
+          name: "2022 Pakistan Floods",
+          link: "2022-pakistan-floods",
+          blog: {
+            heading: "2022 Pakistan Floods",
+            para1:
+              "HOPE USA has been on the ground providing relief to flood victims since Day 1 of this Karachi Flooding Crisis.​ We have aided over 115,000 Pakistan Flood Victims with the following forms of relief:",
+            para2:
+              "We have been providing relief in Karachi (and urban slums within), Thatta, Sujawal, Badin, Swat Valley, and Rajanpur, Punjab.  HOPE USA is collaborating with private donors and corporations to provide aid in the country's worst disaster yet.",
+            features: [
+              "Cooked Food​",
+              "Food Rations​",
+              "Medical Intervention​",
+              "Clothing",
+              "Bedding",
+              "House Reconstruction​",
+              "Mosquito Nets​",
+            ],
+            img: PakistanFloods2022,
+          },
+        },
+
+        {
+          logo: KashmirEarthquake2005,
+          description:
+            "The 2005 earthquake in northern Pakistan left the region devastated and tens of thousands of people were in dire need of help.",
+          name: "2005 Kashmir Earthquake",
+          link: "2005-kashmir-earthquake",
+          blog: {
+            heading: "2005 Kashmir Earthquake",
+            para1:
+              "HOPE took action to provide aid to those affected by the destruction by mobilizing a 17 member team to give on-the-ground support.  This team consisted of physicians, doctors, gynecologists, paramedics, and social workers.  Altogether HOPE treated approximately 4,000 patients.  Together with UNICEF, HOPE began the treatment of malnourished children along with pregnant and nursing mothers.  Additionally, HOPE set up two offices (one in Muzaffarabad and one in Bagh District) to provide counseling to mothers and children.",
+            img: KashmirEarthquake2005,
+          },
+        },
+
+        {
+          logo: swatReliefOperation,
+          description:
+            "HOPE deployed a medical team to Swat and Dir to administer relief aid to the Internationally Displaced Persons in the region.",
+          name: "HOPE Relief Operation for Swat Internally Displaced Persons",
+          link: "swat-relief-operation",
+          blog: {
+            heading:
+              "HOPE Relief Operation for Swat Internally Displaced Persons",
+            para1:
+              "HOPE deployed a medical team to Swat and Dir to administer relief aid to the Internationally Displaced Persons in the region.  This diverse team of medical professionals and social workers treated 1,000 patients during their work in the area.  The medical staff traveled between various camps: Jalala, Yar Hussain, Ambar, and others.  Patients primarily suffered from conditions such as diarrhea, skin infections, and acute respiratory infections.  HOPE distributed relief goods such as tents, bedding, and coolers along with staples such as flour, rice, and lentils.  Additionally, HOPE distributed 12.5 million sachets of PuR to 25,000 families (approximately 200,000 individuals) along basic instruction on the importance of clean water.",
+            img: swatReliefOperation,
+          },
+        },
+
+        {
+          logo: DaduCyclone2007,
+          description:
+            "In June 2007, the coasts of Sindh and Balochistan were ravaged by hurricanes and floods.",
+          name: "2007 Dadu Cyclone and Flood Relief",
+          link: "2007-dadu-cyclone",
+          blog: {
+            heading: "2007 Dadu Cyclone and Flood Relief",
+            para1:
+              "In June 2007, the coasts of Sindh and Balochistan were ravaged by hurricanes and floods.  The waters left roads and transport lines unusable,  making relief efforts almost impossible. In a collaborative effort, HOPE, Indus Motors, HSBC Bank, and House of Habib set up relief operations in Gadap, Dadu, Juhi and Kharo Chand, all regions which were heavily affected by the storms.  Additionally, HOPE established camps in these villages to provide the necessary care to survivors.  Due to the stagnant waters, many people contracted gastroenteritis and diarrhea.  A team of HOPE doctors from Karachi and Thatta provided medical consultation to over 1,000 patients and provided them with food, water purification sachets, and medicine.  HOPE also provided tents for housing against the approaching monsoon rains.",
+            img: DaduCyclone2007,
+          },
+        },
+
+        {
+          logo: BalochistanEarthquake2008,
+          description:
+            "On October 29, 2008 Balochistan was rocked by a 6.4 earthquake; the areas of Ziarat and Pishin district were worst hit.",
+          name: "2008 Balochistan Earthquake",
+          link: "2008-balochistan-earthquake",
+          blog: {
+            heading: "2008 Balochistan Earthquake",
+            para1:
+              "On October 29, 2008 Balochistan was rocked by a 6.4 earthquake; the areas of Ziarat and Pishin district were worst hit.  Over 200 people perished in the disaster and thousands more were left displaced and homeless with winter on its way.  HOPE assembled a team of 20 medical professionals and social workers to alleviate the condition of those affected by the earthquake.  Medical aid was provided along with essential food and necessities for winter such as warm tents and winter clothing.  A second relief operation was conducted in December 2008 to provide aid to another 6,000 victims of the earthquake.  Additionally medical camps were opened across villages to provide 7,500 patients with medical care.",
+            img: BalochistanEarthquake2008,
+          },
+        },
+      ],
+    },
+  },
+  {
+    logo: ramadanMain,
+    name: "Ramadan Activities",
+    description: "Remembering the Needy",
+    link: "ramazan",
+    subpage: {
+      heading: "Ramadan Activities",
+      loop: [
+        {
+          logo: communityIftar,
+          description:
+            "HOPE USA has been sponsoring Ramadan iftars in its formal schools in Pakistan.",
+          name: "Community Iftars",
+          link: "community-iftars",
+          blog: {
+            heading: "Community Iftars",
+            para1:
+              "HOPE USA has been sponsoring Ramadan iftars in its formal schools in Pakistan (in Zia Colony: 610 students, Muzaffargarh: 320 students, and Thatta: 340 students) for the past ten years.  Iftar is the meal that Muslims eat at sundown after a day of fasting.  Providing dinner for one child costs $3 and as a donor you can sponsor an entire school or a group of children.",
+            img: communityIftar,
+          },
+        },
+        {
+          logo: doorToDoorIftar,
+          description:
+            "A silver lining of the Covid-19 pandemic was that it ushered in a new tradition of delivering hot meals to those in need.",
+          name: "Door-to-Door Iftars",
+          link: "door-to-door-iftars",
+          blog: {
+            heading: "Door-to-Door Iftars",
+            para1:
+              "A silver lining of the Covid-19 pandemic was that it ushered in a new tradition of delivering hot meals to those in need.  Our Door-to-Door Iftars are Zakat-eligible.  For just $1, you can sponsor a biryani meal or iftar box for a deserving person.",
+            img: doorToDoorIftar,
+          },
+        },
+        {
+          logo: distributionOfClothes,
+          description:
+            "The 11,000 students who attend HOPE's formal and home schools in Pakistan come from backgrounds of extreme poverty.",
+          name: "Distribution of New Clothes for Eid",
+          link: "distribution-of-clothes",
+          blog: {
+            heading: "Distribution of New Clothes for Eid",
+            para1:
+              "The 11,000 students who attend HOPE's formal and home schools in Pakistan come from backgrounds of extreme poverty.  They are used to sacrificing even the basics such as a meal, clean water, and proper housing.  We have made it a tradition to gift them with new outfits every Eid.  A new outfit for a child is just $17.  It is a small gesture that means the word to them.",
+            img: distributionOfClothes,
+          },
+        },
+        {
+          logo: distributionOfFoodRations,
+          description:
+            "HOPE distributes monthly food rations year-round and especially during Ramadan.",
+          name: "Distribution of Food Rations",
+          link: "distribution-of-food-rations",
+          blog: {
+            heading: "Distribution of Food Rations",
+            para1:
+              "HOPE distributes monthly food rations year-round and especially during Ramadan.  Each family is provided with necessities such as rice, flour, lentils, and dry foods.  For just $33 you can provide one month's worth of food rations to a family of 8.",
+            img: distributionOfFoodRations,
+          },
+        },
+      ],
+    },
+  },
+  {
+    logo: qurbaniMain,
+    name: "Qurbani/Udhiya",
+    description: "Giving Thanks",
+    link: "qurbani",
+    subpage: {
+      heading: "Qurbani/Udhiya",
+      loop: [
+        {
+          logo: qurabaniUdhiya,
+          description:
+            "Every year, during the Islamic holiday of Eid ul Adha, HOPE USA participates in the spirit of giving by raising funds for Qurbani/Udhiya for the impoverished in Pakistan.",
+          name: "Qurbani/Udhiya Distribution",
+          link: "qurbani-udhiya-distribution",
+          blog: {
+            heading: "Qurbani/Udhiya Distribution",
+            para1:
+              "Every year, during the Islamic holiday of Eid ul Adha, HOPE USA participates in the spirit of giving by raising funds for Qurbani/Udhiya for the impoverished in Pakistan.  Over the years we have provided meat for thousands of people in slum areas of Karachi such as Behas Colony, Zia Colony, Bhattiabad, Bilal Colony, Manzoor Colony, Thatta, Badin, Muzaffaragarh, and Sujawal.  Together with your efforts, we can work towards alleviating poverty in Pakistan.",
+            img: qurabaniUdhiya,
+          },
+        },
+      ],
+    },
   },
 ];
 
@@ -366,9 +887,7 @@ export const peopleBehindHope = [
   { name: "Mr. Kassim Agboatwalla", img: PersonImg0 },
   { name: "Mr. Suleman Agboatwalla", img: PersonImg1 },
   { name: "Ms. Saira Sarwar", img: PersonImg2 },
-  { name: "Ms. Reema Gillani", img: PersonImg3 },
   { name: "Ms. Fozia Rizwan", img: PersonImg4 },
-  { name: "Mrs. Syeda Irum Bukhari", img: PersonImg5 },
   { name: "Mrs. Shahida Hamid", img: PersonImg6 },
   { name: "Mr. M.Ismail Memon", img: PersonImg7 },
   { name: "Mr. Jamil Rana", img: PersonImg8 },
@@ -757,5 +1276,38 @@ export const papers = [
     owner: "Hope",
     date: "07/17/2011",
     link: paper13,
+  },
+];
+
+export const banks = [
+  {
+    name: "Faysal Bank Ltd.",
+    address: "Shaheed-e-Millat Road Branch, Karachi, Pakistan",
+    account: "0333007900198120",
+    swiftCode: "FAYSPKKA",
+  },
+  {
+    name: "Dubai Islamic Bank",
+    address: "Gulshan-e-Iqbal, Karachi, Pakistan",
+    account: "0194102001",
+    swiftCode: "DUBIPKKA",
+  },
+  {
+    name: "MCB Islamic Bank Ltd.",
+    address: "Shaheed-e-Millat Road Branch Bismillah Blessing Branch, Karachi, Pakistan",
+    account: "1371002268280002",
+    swiftCode: "MCIBPKKI",
+  },
+  {
+    name: "Habib Bank Ltd.",
+    address: "I.I. Chundrigarh Road, Karachi, Pakistan",
+    account: "0786-00099297-03",
+    swiftCode: "HABBPKKA",
+  },
+  {
+    name: "Bank Alfalah",
+    address: "Dhoraji Branch, Karachi, Pakistan",
+    account: "5525-5000638076",
+    swiftCode: "ALFHPKKA",
   },
 ];
