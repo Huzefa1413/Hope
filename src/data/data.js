@@ -6,7 +6,7 @@ import scientist from "../assets/Research/scientist.jpeg";
 import PersonImg0 from "../assets/About/kassim-0.png";
 import PersonImg1 from "../assets/About/suleman-1.png";
 import PersonImg2 from "../assets/About/saira-2.png";
-import PersonImg4 from "../assets/About/fozia-4.png";
+import PersonImg3 from "../assets/About/reema-3.png";
 import PersonImg6 from "../assets/About/shahida-6.png";
 import PersonImg7 from "../assets/About/ismail-7.png";
 import PersonImg8 from "../assets/About/jamil-8.png";
@@ -887,7 +887,7 @@ export const peopleBehindHope = [
   { name: "Mr. Kassim Agboatwalla", img: PersonImg0 },
   { name: "Mr. Suleman Agboatwalla", img: PersonImg1 },
   { name: "Ms. Saira Sarwar", img: PersonImg2 },
-  { name: "Ms. Fozia Rizwan", img: PersonImg4 },
+  { name: "Ms. Reema Gillani", img: PersonImg3 },
   { name: "Mrs. Shahida Hamid", img: PersonImg6 },
   { name: "Mr. M.Ismail Memon", img: PersonImg7 },
   { name: "Mr. Jamil Rana", img: PersonImg8 },

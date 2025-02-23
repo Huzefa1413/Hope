@@ -8,23 +8,24 @@ const BankDetails = () => {
   const toggleBank = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
   return (
-    <div className="container py-5 text-center bankDetails">
+    <div className="container py-5 bankDetails">
       <h1>Bank Details</h1>
       <div className="row">
         {banks.map((bank, index) => (
-          <div key={index} className="col-md-6 mb-3">
-            <div className="card">
+          <div key={index} className="col-lg-4 col-md-6 mb-4">
+            <div className="card bank-card">
               <button
-                className="card-header bg-primary text-white d-flex justify-content-between align-items-center btn"
+                className="card-header d-flex justify-content-between align-items-center btn-toggle"
                 onClick={() => toggleBank(index)}
               >
                 <span className="bankName">{bank.name}</span>
-                <span>{openIndex === index ? "▲" : "▼"}</span>
+                <span className="toggle-icon">{openIndex === index ? "▲" : "▼"}</span>
               </button>
               {openIndex === index && (
                 <div className="card-body">
-                  <p>{bank.address}</p>
+                  <p><strong>Address:</strong> {bank.address}</p>
                   <p><strong>Account#</strong> {bank.account}</p>
                   <p><strong>Swift Code:</strong> {bank.swiftCode}</p>
                 </div>

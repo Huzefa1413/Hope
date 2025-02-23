@@ -17,11 +17,11 @@ const Homepage = () => {
     <>
       <Navbar />
       <div className="video web">
-        <video src={IntroWeb} autoPlay loop></video>
+        <video src={IntroWeb} autoPlay muted loop preload="auto"></video>
         <div className="overlay"></div>
       </div>
       <div className="video mobile">
-        <video src={IntroMobile} autoPlay loop></video>
+        <video src={IntroMobile} autoPlay muted loop preload="auto"></video>
         <div className="overlay"></div>
       </div>
       <Impact />

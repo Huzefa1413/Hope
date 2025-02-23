@@ -8,22 +8,67 @@
   line-height: 1.4;
   margin-bottom: 3rem;
   font-family: serif;
+  text-align: center;
 }
 
 .bankDetails .bankName {
   font-size: 18px;
   font-weight: bold;
+  color: #000000;
   padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bankDetails .card {
+  border-radius: 10px;  
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.bankDetails .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bankDetails .card-header {
+  background-color: #007bff;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bankDetails .card-header:hover {
+  background-color: #0056b3;
 }
 
 .bankDetails .card-body {
+  background-color: #f9f9f9;
   padding: 20px 30px;
+  font-size: 16px;
   text-align: left;
+  line-height: 1.6;
+  border-top: 2px solid #ddd;
 }
 
 .bankDetails .card-body p {
-  font-size: 16px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.bankDetails .toggle-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bankDetails .btn-toggle {
+  border: none;
+  outline: none;
+}
+
+.bankDetails .card-body p strong {
+  color: #007bff;
 }
 
 @media (max-width: 768px) {
@@ -44,7 +89,6 @@
 
   .bankDetails .card-body p {
     font-size: 14px;
-    margin-bottom: 0;
   }
 }
 
@@ -55,17 +99,14 @@
 
   .bankDetails .bankName {
     font-size: 14px;
-    font-weight: bold;
     padding: 6px 12px;
   }
 
   .bankDetails .card-body {
     padding: 16px 24px;
-    text-align: left;
   }
 
   .bankDetails .card-body p {
     font-size: 12px;
-    margin-bottom: 0;
   }
 }
